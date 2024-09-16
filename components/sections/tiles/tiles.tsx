@@ -7,15 +7,15 @@ import {
   TileContent,
 } from "./tile";
 
-export default function FeatureTiles() {
+export default function Tiles() {
   return (
     <section className="bg-background text-foreground py-32 px-4">
       <div className="max-w-[1280px] flex flex-col items-center gap-12 mx-auto">
         <h2 className="text-5xl font-semibold">
           Build a better website, faster.
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-8 gap-4 auto-rows-fr">
-          <Tile className="col-span-8">
+        <div className="grid grid-cols-12 gap-4 auto-rows-fr">
+          <Tile className="col-span-12">
             <TileVisual>
               <Box className="w-48 h-48 opacity-10" />
             </TileVisual>
@@ -27,7 +27,7 @@ export default function FeatureTiles() {
               </TileDescription>
             </TileContent>
           </Tile>
-          <Tile className="col-span-3">
+          <Tile className="col-span-12 md:col-span-6 lg:col-span-5">
             <TileVisual>
               <Box className="w-48 h-48 opacity-10" />
             </TileVisual>
@@ -45,7 +45,7 @@ export default function FeatureTiles() {
               </TileDescription>
             </TileContent>
           </Tile>
-          <Tile className="col-span-5">
+          <Tile className="col-span-12 md:col-span-6 lg:col-span-7">
             <TileVisual>
               <Box className="w-48 h-48 opacity-10" />
             </TileVisual>
@@ -61,7 +61,7 @@ export default function FeatureTiles() {
               </TileDescription>
             </TileContent>
           </Tile>
-          <Tile className="col-span-5">
+          <Tile className="col-span-12 md:col-span-6 lg:col-span-7">
             <TileVisual>
               <Box className="w-48 h-48 opacity-10" />
             </TileVisual>
@@ -74,7 +74,7 @@ export default function FeatureTiles() {
               </TileDescription>
             </TileContent>
           </Tile>
-          <Tile className="col-span-3">
+          <Tile className="col-span-12 md:col-span-6 lg:col-span-5">
             <TileVisual>
               <Box className="w-48 h-48 opacity-10" />
             </TileVisual>
