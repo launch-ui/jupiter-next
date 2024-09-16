@@ -4,7 +4,7 @@ import { ArrowRightIcon } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="bg-background text-foreground py-20">
+    <section className="bg-background text-foreground py-32">
       <div className="max-w-[1280px] text-center flex flex-col items-center gap-12 mx-auto">
         <Badge variant="outline">
           <span className="text-muted-foreground">
@@ -18,13 +18,17 @@ export default function Hero() {
         <h1 className="text-8xl font-semibold">
           Give your big idea the website it deserves
         </h1>
-        <p className="text-xl font-medium text-muted-foreground max-w-[580px]">
-          Quality landing page built with React, Shadcn and Tailwind that you
-          can copy/paste into your project.
+        <p className="text-xl font-medium text-muted-foreground max-w-[400px]">
+          A modern, responsive landing page that you can copy/paste into your
+          project.
         </p>
         <div className="flex justify-center gap-4">
-          <Button variant="default">Get Started</Button>
-          <Button variant="outline">Github</Button>
+          <Button variant="default" size="lg">
+            Get Started
+          </Button>
+          <Button variant="outline" size="lg">
+            Github
+          </Button>
         </div>
       </div>
     </section>
