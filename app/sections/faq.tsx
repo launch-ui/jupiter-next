@@ -9,7 +9,7 @@ import {
 export default function FAQ() {
   return (
     <Section>
-      <div className="max-w-[1280px] text-center flex flex-col items-center gap-8 mx-auto">
+      <div className="max-w-container text-center flex flex-col items-center gap-8 mx-auto">
         <h2 className="text-5xl font-semibold">Questions and Answers</h2>
         <Accordion type="single" collapsible className="w-full max-w-[800px]">
           <AccordionItem value="item-1">

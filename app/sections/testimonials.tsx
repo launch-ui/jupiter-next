@@ -4,7 +4,7 @@ import Testimonial from "@/components/ui/testimonial";
 export default function Testimonials() {
   return (
     <Section>
-      <div className="max-w-[1280px] text-center flex flex-col items-center gap-8 mx-auto">
+      <div className="max-w-container text-center flex flex-col items-center gap-8 mx-auto">
         <h2 className="text-5xl font-semibold">
           Loved by designers and developers across the planet
         </h2>

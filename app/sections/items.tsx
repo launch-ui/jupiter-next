@@ -10,7 +10,7 @@ import { Section } from "@/components/ui/section";
 export default function Items() {
   return (
     <Section>
-      <div className="max-w-[1280px] flex flex-col items-center gap-20 mx-auto">
+      <div className="max-w-container flex flex-col items-center gap-20 mx-auto">
         <h2 className="text-5xl font-semibold max-w-[480px] text-center leading-tight">
           Everyting you need. Nothing you don’t.
         </h2>

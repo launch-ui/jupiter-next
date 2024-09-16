@@ -5,13 +5,28 @@ const Footer = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
 >(({ className, ...props }, ref) => (
-  <footer
+  <div
     ref={ref}
     className={cn("bg-background text-foreground py-12", className)}
     {...props}
   />
 ));
 Footer.displayName = "Footer";
+
+const FooterContent = React.forwardRef<
+  HTMLDivElement,
+  React.HTMLAttributes<HTMLDivElement>
+>(({ className, ...props }, ref) => (
+  <div
+    ref={ref}
+    className={cn(
+      "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8",
+      className
+    )}
+    {...props}
+  />
+));
+FooterContent.displayName = "FooterContent";
 
 const FooterColumn = React.forwardRef<
   HTMLDivElement,
@@ -28,7 +43,7 @@ const FooterBottom = React.forwardRef<
   <div
     ref={ref}
     className={cn(
-      "flex flex-col items-center justify-between gap-4 border-t border-muted-foreground pt-4 mt-8 sm:flex-row",
+      "flex flex-col items-center justify-between gap-4 border-t pt-4 mt-8 sm:flex-row text-xs text-muted-foreground",
       className
     )}
     {...props}
@@ -36,4 +51,4 @@ const FooterBottom = React.forwardRef<
 ));
 FooterBottom.displayName = "FooterBottom";
 
-export { Footer, FooterColumn, FooterBottom };
+export { Footer, FooterColumn, FooterBottom, FooterContent };

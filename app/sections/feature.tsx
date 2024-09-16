@@ -3,7 +3,7 @@ import { Section } from "@/components/ui/section";
 export default function Feature() {
   return (
     <Section>
-      <div className="max-w-[1280px] text-center flex flex-col items-center gap-8 mx-auto">
+      <div className="max-w-container text-center flex flex-col items-center gap-8 mx-auto">
         <h1 className="text-6xl font-semibold">
           The ultimate performance and SEO solution
         </h1>

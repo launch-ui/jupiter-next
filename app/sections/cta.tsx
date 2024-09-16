@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 export default function CTA() {
   return (
     <Section>
-      <div className="max-w-[1280px] text-center flex flex-col items-center gap-8 mx-auto">
+      <div className="max-w-container text-center flex flex-col items-center gap-8 mx-auto">
         <h2 className="text-5xl font-semibold">Start building</h2>
         <Button variant="default" size="lg">
           Get started

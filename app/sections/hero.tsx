@@ -6,7 +6,7 @@ import { Section } from "@/components/ui/section";
 export default function Hero() {
   return (
     <Section>
-      <div className="max-w-[1280px] text-center flex flex-col items-center gap-12 mx-auto">
+      <div className="max-w-container text-center flex flex-col items-center gap-12 mx-auto">
         <Badge variant="outline">
           <span className="text-muted-foreground">
             New version of Mercury is out!

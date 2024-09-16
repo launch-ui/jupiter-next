@@ -8,21 +8,23 @@ import {
 
 export default function Navbar() {
   return (
-    <header>
-      <NavbarComponent>
-        <NavbarLeft>
-          <a href="#" className="text-xl font-bold">
-            Mercury
-          </a>
-          <Navigation />
-        </NavbarLeft>
-        <NavbarRight>
-          <a href="#" className="text-sm">
-            Sign in
-          </a>
-          <Button variant="default">Get Started</Button>
-        </NavbarRight>
-      </NavbarComponent>
+    <header className="px-4">
+      <div className="max-w-container mx-auto">
+        <NavbarComponent>
+          <NavbarLeft>
+            <a href="#" className="text-xl font-bold">
+              Mercury
+            </a>
+            <Navigation />
+          </NavbarLeft>
+          <NavbarRight>
+            <a href="#" className="text-sm">
+              Sign in
+            </a>
+            <Button variant="default">Get Started</Button>
+          </NavbarRight>
+        </NavbarComponent>
+      </div>
     </header>
   );
 }

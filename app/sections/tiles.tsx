@@ -6,11 +6,12 @@ import {
   TileDescription,
   TileContent,
 } from "../../components/ui/tile";
+import { Section } from "@/components/ui/section";
 
 export default function Tiles() {
   return (
-    <section className="bg-background text-foreground py-32 px-4">
-      <div className="max-w-[1280px] flex flex-col items-center gap-12 mx-auto">
+    <Section>
+      <div className="max-w-container flex flex-col items-center gap-12 mx-auto">
         <h2 className="text-5xl font-semibold">
           Build a better website, faster.
         </h2>
@@ -89,6 +90,6 @@ export default function Tiles() {
           </Tile>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
