@@ -1,10 +1,11 @@
 import { Button } from "@/components/ui/button";
-import { Badge } from "../../ui/badge";
+import { Badge } from "@/components/ui/badge";
 import { ArrowRightIcon } from "lucide-react";
+import { Section } from "@/components/ui/section";
 
 export default function Hero() {
   return (
-    <section className="bg-background text-foreground py-32">
+    <Section>
       <div className="max-w-[1280px] text-center flex flex-col items-center gap-12 mx-auto">
         <Badge variant="outline">
           <span className="text-muted-foreground">
@@ -31,6 +32,6 @@ export default function Hero() {
           </Button>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }

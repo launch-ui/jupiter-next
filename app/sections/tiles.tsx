@@ -5,7 +5,7 @@ import {
   TileTitle,
   TileDescription,
   TileContent,
-} from "./tile";
+} from "../../components/ui/tile";
 
 export default function Tiles() {
   return (

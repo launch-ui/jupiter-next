@@ -1,9 +1,15 @@
 import { Box } from "lucide-react";
-import { Item, ItemIcon, ItemTitle, ItemDescription } from "./item";
+import {
+  Item,
+  ItemIcon,
+  ItemTitle,
+  ItemDescription,
+} from "@/components/ui/item";
+import { Section } from "@/components/ui/section";
 
 export default function Items() {
   return (
-    <section className="bg-background text-foreground py-32 px-4">
+    <Section>
       <div className="max-w-[1280px] flex flex-col items-center gap-20 mx-auto">
         <h2 className="text-5xl font-semibold max-w-[480px] text-center leading-tight">
           Everyting you need. Nothing you don’t.
@@ -83,6 +89,6 @@ export default function Items() {
           </Item>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }

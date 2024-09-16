@@ -1,8 +1,8 @@
-import Navbar from "@/components/sections/navbar/navbar";
-import Hero from "@/components/sections/hero/hero";
-import Logos from "@/components/sections/logos/logos";
-import Tiles from "@/components/sections/tiles/tiles";
-import Items from "@/components/sections/items/items";
+import Navbar from "@/app/sections/navbar";
+import Hero from "@/app/sections/hero";
+import Logos from "@/app/sections/logos";
+import Tiles from "@/app/sections/tiles";
+import Items from "@/app/sections/items";
 
 export default function Home() {
   return (
