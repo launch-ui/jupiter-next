@@ -5,7 +5,7 @@ import {
   TileTitle,
   TileDescription,
   TileContent,
-} from "../../components/ui/tile";
+} from "@/components/ui/tile";
 import { Section } from "@/components/ui/section";
 
 export default function Tiles() {
@@ -23,7 +23,7 @@ export default function Tiles() {
             <TileContent>
               <TileTitle>100+ sections and components</TileTitle>
               <TileDescription>
-                Mercury is a modern, responsive, and accessible landing page
+                Jupiter is a modern, responsive, and accessible landing page
                 template built with React, Tailwind, and Shadcn.
               </TileDescription>
             </TileContent>
@@ -54,7 +54,7 @@ export default function Tiles() {
               <TileTitle>Fits right into your stack</TileTitle>
               <TileDescription>
                 <p>
-                  Mercury is built with modern technologies that fit right into
+                  Jupiter is built with modern technologies that fit right into
                   any react-based project using familiar tools such as Tailwind
                   CSS and shadcn/ui.
                 </p>

@@ -9,28 +9,28 @@ export default function Testimonials() {
           Loved by designers and developers across the planet
         </h2>
         <p className="text-xl font-medium text-muted-foreground max-w-[600px]">
-          Here&apos;s what people are saying about Mercury
+          Here&apos;s what people are saying about Jupiter
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           <Testimonial
             name="Ryan Dick"
             username="ryandick"
-            text="Mercury is the best template I used so far. I really like it and it already help my business make a lot of money."
+            text="Jupiter is the best template I used so far. I really like it and it already help my business make a lot of money."
           />
           <Testimonial
             name="Ryan Dick"
             username="ryandick"
-            text="Mercury is the best template I used so far. I really like it and it already help my business make a lot of money."
+            text="Jupiter is the best template I used so far. I really like it and it already help my business make a lot of money."
           />
           <Testimonial
             name="Ryan Dick"
             username="ryandick"
-            text="Mercury is the best template I used so far. I really like it and it already help my business make a lot of money."
+            text="Jupiter is the best template I used so far. I really like it and it already help my business make a lot of money."
           />
           <Testimonial
             name="Ryan Dick"
             username="ryandick"
-            text="Mercury is the best template I used so far. I really like it and it already help my business make a lot of money."
+            text="Jupiter is the best template I used so far. I really like it and it already help my business make a lot of money."
           />
         </div>
       </div>

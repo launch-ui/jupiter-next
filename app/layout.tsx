@@ -4,7 +4,7 @@ import { inter } from "@/components/fonts";
 import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
-  title: "Mercury",
+  title: "Jupiter",
   description: "Landing page template",
 };
 

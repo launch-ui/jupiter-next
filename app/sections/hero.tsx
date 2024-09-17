@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="max-w-container text-center flex flex-col items-center gap-12 mx-auto">
         <Badge variant="outline">
           <span className="text-muted-foreground">
-            New version of Mercury is out!
+            New version of Jupiter is out!
           </span>
           <a href="#" className="flex items-center gap-1">
             Read more

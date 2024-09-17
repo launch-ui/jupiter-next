@@ -1,4 +1,4 @@
-# Mercury – Landing Page Template
+# Jupiter – Landing Page Template
 
 A modern, responsive landing page that you can copy/paste into your project.
 
@@ -22,7 +22,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 ## Learn More
 
-To learn more about the Mercury template (tba)
+To learn more about the Jupiter template (tba)
 
 ## Deploy
 

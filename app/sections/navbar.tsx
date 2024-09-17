@@ -13,7 +13,7 @@ export default function Navbar() {
         <NavbarComponent>
           <NavbarLeft>
             <a href="#" className="text-xl font-bold">
-              Mercury
+              Jupiter
             </a>
             <Navigation />
           </NavbarLeft>

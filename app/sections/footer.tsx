@@ -13,7 +13,7 @@ export default function FooterSection() {
         <Footer>
           <FooterContent>
             <div className="flex flex-col gap-4">
-              <h3 className="text-xl font-bold">Mercury</h3>
+              <h3 className="text-xl font-bold">Jupiter</h3>
             </div>
             <FooterColumn>
               <h3 className="text-sm font-semibold">Product</h3>
