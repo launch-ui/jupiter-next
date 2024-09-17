@@ -1,3 +1,4 @@
+import { ModeToggle } from "@/components/mode-toggle";
 import {
   Footer,
   FooterColumn,
@@ -50,9 +51,10 @@ export default function FooterSection() {
           </FooterContent>
           <FooterBottom>
             <div>© 2024 Mikołaj Dobrucki. All rights reserved</div>
-            <div className="flex gap-4">
+            <div className="flex gap-4 items-center">
               <a href="#">Privacy Policy</a>
               <a href="#">Terms of Service</a>
+              <ModeToggle />
             </div>
           </FooterBottom>
         </Footer>
