@@ -27,7 +27,7 @@ export default function Hero() {
           <Button variant="default" size="lg">
             Get Started
           </Button>
-          <Button variant="outline" size="lg">
+          <Button variant="glow" size="lg">
             Github
           </Button>
         </div>

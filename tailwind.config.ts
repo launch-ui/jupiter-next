@@ -81,6 +81,9 @@ const config: Config = {
       spacing: {
         container: "1280px",
       },
+      boxShadow: {
+        "glow-sm": "0 0 16px 0 hsla(var(--foreground) / 0.1) inset",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
