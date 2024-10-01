@@ -9,7 +9,7 @@ const Tile = React.forwardRef<
   <div
     ref={ref}
     className={cn(
-      "p-6 rounded-xl border bg-card text-card-foreground flex flex-col gap-6",
+      "p-6 rounded-xl border bg-accent/10 text-card-foreground flex flex-col gap-6 shadow-glow-lg",
       className
     )}
     {...props}

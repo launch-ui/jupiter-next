@@ -16,22 +16,7 @@ export default function Tiles() {
           Build a better website, faster.
         </h2>
         <div className="grid grid-cols-12 gap-4 auto-rows-fr">
-          <Tile className="col-span-12">
-            <TileVisual>
-              <Box className="w-48 h-48 opacity-10" />
-            </TileVisual>
-            <TileContent>
-              <TileTitle>100+ sections and components</TileTitle>
-              <TileDescription>
-                Jupiter is a modern, responsive, and accessible landing page
-                template built with React, Tailwind, and Shadcn.
-              </TileDescription>
-            </TileContent>
-          </Tile>
           <Tile className="col-span-12 md:col-span-6 lg:col-span-5">
-            <TileVisual>
-              <Box className="w-48 h-48 opacity-10" />
-            </TileVisual>
             <TileContent>
               <TileTitle>You’re in control</TileTitle>
               <TileDescription>
@@ -45,11 +30,11 @@ export default function Tiles() {
                 </p>
               </TileDescription>
             </TileContent>
-          </Tile>
-          <Tile className="col-span-12 md:col-span-6 lg:col-span-7">
             <TileVisual>
               <Box className="w-48 h-48 opacity-10" />
             </TileVisual>
+          </Tile>
+          <Tile className="col-span-12 md:col-span-6 lg:col-span-7">
             <TileContent>
               <TileTitle>Fits right into your stack</TileTitle>
               <TileDescription>
@@ -61,11 +46,11 @@ export default function Tiles() {
                 <p>No bloat, no extra dependencies, no risk of conflicts.</p>
               </TileDescription>
             </TileContent>
-          </Tile>
-          <Tile className="col-span-12 md:col-span-6 lg:col-span-7">
             <TileVisual>
               <Box className="w-48 h-48 opacity-10" />
             </TileVisual>
+          </Tile>
+          <Tile className="col-span-12 md:col-span-6 lg:col-span-7">
             <TileContent>
               <TileTitle>Fully customizable</TileTitle>
               <TileDescription>
@@ -74,11 +59,11 @@ export default function Tiles() {
                 schemes are already included.
               </TileDescription>
             </TileContent>
-          </Tile>
-          <Tile className="col-span-12 md:col-span-6 lg:col-span-5">
             <TileVisual>
               <Box className="w-48 h-48 opacity-10" />
             </TileVisual>
+          </Tile>
+          <Tile className="col-span-12 md:col-span-6 lg:col-span-5">
             <TileContent>
               <TileTitle>Data-agnostic</TileTitle>
               <TileDescription>
@@ -87,6 +72,9 @@ export default function Tiles() {
                 when you’re ready.
               </TileDescription>
             </TileContent>
+            <TileVisual>
+              <Box className="w-48 h-48 opacity-10" />
+            </TileVisual>
           </Tile>
         </div>
       </div>

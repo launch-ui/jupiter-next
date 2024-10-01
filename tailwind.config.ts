@@ -83,6 +83,8 @@ const config: Config = {
       },
       boxShadow: {
         "glow-sm": "0 0 16px 0 hsla(var(--foreground) / 0.1) inset",
+        "glow-md": "0 0 32px 0 hsla(var(--foreground) / 0.08) inset",
+        "glow-lg": "0 0 64px 0 hsla(var(--foreground) / 0.06) inset",
       },
     },
   },
