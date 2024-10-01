@@ -10,8 +10,14 @@ export default function FAQ() {
   return (
     <Section>
       <div className="max-w-container text-center flex flex-col items-center gap-8 mx-auto">
-        <h2 className="text-5xl font-semibold">Questions and Answers</h2>
-        <Accordion type="single" collapsible className="w-full max-w-[800px]">
+        <h2 className="text-3xl sm:text-5xl font-semibold">
+          Questions and Answers
+        </h2>
+        <Accordion
+          type="single"
+          collapsible
+          className="w-full max-w-[800px] text-left"
+        >
           <AccordionItem value="item-1">
             <AccordionTrigger>Is Jupiter easy to customise?</AccordionTrigger>
             <AccordionContent>

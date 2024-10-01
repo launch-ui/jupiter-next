@@ -4,11 +4,11 @@ import Testimonial from "@/components/ui/testimonial";
 export default function Testimonials() {
   return (
     <Section>
-      <div className="max-w-container text-center flex flex-col items-center gap-8 mx-auto">
-        <h2 className="text-5xl font-semibold">
+      <div className="max-w-container text-center flex flex-col items-center gap-4 sm:gap-8 mx-auto">
+        <h2 className="text-2xl sm:text-5xl font-semibold">
           Loved by designers and developers across the planet
         </h2>
-        <p className="text-xl font-medium text-muted-foreground max-w-[600px]">
+        <p className="text-sm sm:text-xl font-medium text-muted-foreground max-w-[600px]">
           Here&apos;s what people are saying about Jupiter
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

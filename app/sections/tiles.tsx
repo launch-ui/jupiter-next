@@ -11,8 +11,8 @@ import { Section } from "@/components/ui/section";
 export default function Tiles() {
   return (
     <Section>
-      <div className="max-w-container flex flex-col items-center gap-12 mx-auto">
-        <h2 className="text-5xl font-semibold">
+      <div className="max-w-container flex flex-col items-center gap-6 sm:gap-12 mx-auto">
+        <h2 className="text-3xl sm:text-5xl font-semibold">
           Build a better website, faster.
         </h2>
         <div className="grid grid-cols-12 gap-4 auto-rows-fr">
