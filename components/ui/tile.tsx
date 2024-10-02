@@ -61,7 +61,7 @@ const TileVisual = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <div
     ref={ref}
-    className={cn("flex items-center justify-center grow", className)}
+    className={cn("flex items-end justify-center grow", className)}
     {...props}
   />
 ));
