@@ -1,7 +1,7 @@
 import Navbar from "@/components/sections/navbar";
 import Hero from "@/components/sections/hero";
 import Logos from "@/components/sections/logos";
-import Tiles from "@/components/sections/bento-grid";
+import BentoGrid from "@/components/sections/bento-grid";
 import Items from "@/components/sections/items";
 import Feature from "@/components/sections/feature";
 import Testimonials from "@/components/sections/testimonials";
@@ -15,7 +15,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Logos />
-      <Tiles />
+      <BentoGrid />
       <Items />
       <Feature />
       <Testimonials />

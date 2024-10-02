@@ -1,4 +1,3 @@
-import { Box } from "lucide-react";
 import {
   Tile,
   TileVisual,
@@ -7,8 +6,9 @@ import {
   TileContent,
 } from "@/components/ui/tile";
 import { Section } from "@/components/ui/section";
+import Placeholder from "../ui/placeholder";
 
-export default function Tiles() {
+export default function BentoGrid() {
   return (
     <Section>
       <div className="max-w-container flex flex-col items-center gap-6 sm:gap-12 mx-auto">
@@ -31,7 +31,7 @@ export default function Tiles() {
               </TileDescription>
             </TileContent>
             <TileVisual>
-              <Box className="w-48 h-48 opacity-10" />
+              <Placeholder />
             </TileVisual>
           </Tile>
           <Tile className="col-span-12 md:col-span-6 lg:col-span-7">
@@ -47,7 +47,7 @@ export default function Tiles() {
               </TileDescription>
             </TileContent>
             <TileVisual>
-              <Box className="w-48 h-48 opacity-10" />
+              <Placeholder />
             </TileVisual>
           </Tile>
           <Tile className="col-span-12 md:col-span-6 lg:col-span-7">
@@ -60,7 +60,7 @@ export default function Tiles() {
               </TileDescription>
             </TileContent>
             <TileVisual>
-              <Box className="w-48 h-48 opacity-10" />
+              <Placeholder />
             </TileVisual>
           </Tile>
           <Tile className="col-span-12 md:col-span-6 lg:col-span-5">
@@ -73,7 +73,7 @@ export default function Tiles() {
               </TileDescription>
             </TileContent>
             <TileVisual>
-              <Box className="w-48 h-48 opacity-10" />
+              <Placeholder />
             </TileVisual>
           </Tile>
         </div>
