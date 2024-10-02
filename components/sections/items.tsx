@@ -6,6 +6,7 @@ import {
   ItemDescription,
 } from "@/components/ui/item";
 import { Section } from "@/components/ui/section";
+import { Beam } from "../ui/beam";
 
 export default function Items() {
   return (
@@ -17,7 +18,9 @@ export default function Items() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0 sm:gap-4 auto-rows-fr">
           <Item>
             <ItemIcon>
-              <Box className="w-8 h-8" />
+              <Beam>
+                <Box className="w-8 h-8" />
+              </Beam>
             </ItemIcon>
             <ItemTitle>Accessibility first</ItemTitle>
             <ItemDescription>

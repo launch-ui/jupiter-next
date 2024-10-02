@@ -50,10 +50,7 @@ const ItemIcon = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <div
     ref={ref}
-    className={cn(
-      "self-start flex items-center relative after:content-[''] after:absolute after:inset-0 after:rounded-full after:bg-foreground/30 after:blur-lg",
-      className
-    )}
+    className={cn("self-start flex items-center", className)}
     {...props}
   />
 ));
