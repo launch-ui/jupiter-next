@@ -3,7 +3,7 @@ import React from "@/components/logos/react";
 import Shadcn from "@/components/logos/shadcn";
 import Tailwind from "@/components/logos/tailwind";
 import TypeScript from "@/components/logos/typescript";
-import Logo from "../../components/ui/logo";
+import Logo from "@/components/ui/logo";
 import { Section } from "@/components/ui/section";
 
 export default function Logos() {

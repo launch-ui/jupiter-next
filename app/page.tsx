@@ -1,13 +1,13 @@
-import Navbar from "@/app/sections/navbar";
-import Hero from "@/app/sections/hero";
-import Logos from "@/app/sections/logos";
-import Tiles from "@/app/sections/tiles";
-import Items from "@/app/sections/items";
-import Feature from "@/app/sections/feature";
-import Testimonials from "@/app/sections/testimonials";
-import FAQ from "@/app/sections/faq";
-import CTA from "@/app/sections/cta";
-import Footer from "@/app/sections/footer";
+import Navbar from "@/components/sections/navbar";
+import Hero from "@/components/sections/hero";
+import Logos from "@/components/sections/logos";
+import Tiles from "@/components/sections/tiles";
+import Items from "@/components/sections/items";
+import Feature from "@/components/sections/feature";
+import Testimonials from "@/components/sections/testimonials";
+import FAQ from "@/components/sections/faq";
+import CTA from "@/components/sections/cta";
+import Footer from "@/components/sections/footer";
 
 export default function Home() {
   return (
