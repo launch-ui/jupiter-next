@@ -6,7 +6,7 @@ export default function Testimonials() {
     <Section>
       <div className="max-w-container text-center flex flex-col items-center gap-4 sm:gap-16 mx-auto overflow-hidden">
         <div className="flex flex-col gap-4 sm:gap-8 items-center">
-          <h2 className="text-2xl sm:text-5xl font-semibold">
+          <h2 className="text-2xl sm:text-5xl font-semibold max-w-[720px] leading-tight sm:leading-tight">
             Loved by designers and developers across the planet
           </h2>
           <p className="text-sm sm:text-xl font-medium text-muted-foreground max-w-[600px]">

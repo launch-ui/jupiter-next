@@ -27,7 +27,7 @@ export default function Testimonial({
           <AvatarFallback>{name.charAt(0)}</AvatarFallback>
         </Avatar>
         <div className="flex flex-col items-start">
-          <h3 className="text-lg font-semibold leading-none">{name}</h3>
+          <h3 className="text-md font-semibold leading-none">{name}</h3>
           <p className="text-sm text-muted-foreground">@{username}</p>
         </div>
       </div>

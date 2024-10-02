@@ -10,7 +10,7 @@ import { Menu } from "lucide-react";
 
 export default function Navbar() {
   return (
-    <header className="px-4 sticky top-0 bg-background/80 backdrop-blur-lg">
+    <header className="px-4 sticky top-0 bg-background/80 backdrop-blur-lg z-50">
       <div className="max-w-container mx-auto">
         <NavbarComponent>
           <NavbarLeft>

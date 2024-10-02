@@ -11,8 +11,8 @@ export default function Items() {
   return (
     <Section>
       <div className="max-w-container flex flex-col items-center gap-6 sm:gap-20 mx-auto">
-        <h2 className="text-3xl sm:text-5xl font-semibold max-w-[480px] text-center leading-tight">
-          Everyting you need. Nothing you don&apos;t.
+        <h2 className="text-3xl sm:text-5xl font-semibold max-w-[560px] text-center leading-tight sm:leading-tight">
+          Everything you need. Nothing you don&apos;t.
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0 sm:gap-4 auto-rows-fr">
           <Item>
