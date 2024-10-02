@@ -20,6 +20,8 @@
     --accent-foreground: 240 5.9% 10%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
+    --brand: 27 96% 61%;
+    --brand-foreground: 31 97% 72%;
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
     --ring: 240 10% 3.9%;
@@ -47,6 +49,8 @@
     --accent-foreground: 0 0% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
+    --brand: 31 97% 72%;
+    --brand-foreground: 27 96% 61%;
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;
@@ -65,4 +69,32 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.fade-x {
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 25%,
+    black 75%,
+    transparent 100%
+  );
+}
+
+.fade-y {
+  mask-image: linear-gradient(
+    to top,
+    transparent 0%,
+    black 25%,
+    black 75%,
+    transparent 100%
+  );
+}
+
+.fade-start {
+  mask-image: linear-gradient(to bottom, transparent 0%, black 35%);
+}
+
+.fade-end {
+  mask-image: linear-gradient(to top, transparent 0%, black 35%);
 }

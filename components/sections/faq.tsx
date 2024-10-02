@@ -53,7 +53,7 @@ export default function FAQ() {
           </AccordionItem>
           <AccordionItem value="item-5">
             <AccordionTrigger>
-              Can I get a refund if I don't like it?
+              Can I get a refund if I don&apos;t like it?
             </AccordionTrigger>
             <AccordionContent>
               Yes, we offer a 30-day money-back guarantee.

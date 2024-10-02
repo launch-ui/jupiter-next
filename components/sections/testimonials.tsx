@@ -13,13 +13,7 @@ export default function Testimonials() {
             Here&apos;s what people are saying about Jupiter
           </p>
         </div>
-        <div
-          className="overflow-hidden w-full"
-          style={{
-            maskImage:
-              "linear-gradient(to right, transparent 0%, black 25%, black 75%, transparent 100%)",
-          }}
-        >
+        <div className="overflow-hidden w-full fade-x">
           <div className="flex flex-col gap-4 -mx-48 items-center">
             <div className="flex gap-4 items-center justify-center">
               <Testimonial
