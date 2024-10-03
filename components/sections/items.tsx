@@ -1,4 +1,14 @@
-import { Box } from "lucide-react";
+import {
+  BlocksIcon,
+  Box,
+  EclipseIcon,
+  FastForwardIcon,
+  LanguagesIcon,
+  MonitorSmartphoneIcon,
+  RocketIcon,
+  ScanFaceIcon,
+  SquarePenIcon,
+} from "lucide-react";
 import {
   Item,
   ItemIcon,
@@ -19,75 +29,89 @@ export default function Items() {
           <Item>
             <ItemIcon>
               <Beam>
-                <Box className="w-8 h-8" />
+                <ScanFaceIcon className="w-8 h-8" />
               </Beam>
             </ItemIcon>
             <ItemTitle>Accessibility first</ItemTitle>
             <ItemDescription>
-              Fully WCAG 2.0 complient, following best practices
+              Fully WCAG 2.0 compliant, made with best a11y practices
             </ItemDescription>
           </Item>
           <Item>
             <ItemIcon>
-              <Box className="w-8 h-8" />
+              <Beam>
+                <MonitorSmartphoneIcon className="w-8 h-8" />
+              </Beam>
             </ItemIcon>
-            <ItemTitle>Accessibility first</ItemTitle>
+            <ItemTitle>Responsive design</ItemTitle>
             <ItemDescription>
-              Fully WCAG 2.0 complient, following best practices
+              Looks and works great on any device and screen size
             </ItemDescription>
           </Item>
           <Item>
             <ItemIcon>
-              <Box className="w-8 h-8" />
+              <Beam>
+                <EclipseIcon className="w-8 h-8" />
+              </Beam>
             </ItemIcon>
-            <ItemTitle>Accessibility first</ItemTitle>
+            <ItemTitle>Light and dark mode</ItemTitle>
             <ItemDescription>
-              Fully WCAG 2.0 complient, following best practices
+              Seamless switching between color schemes, 6 themes included
             </ItemDescription>
           </Item>
           <Item>
             <ItemIcon>
-              <Box className="w-8 h-8" />
+              <Beam>
+                <BlocksIcon className="w-8 h-8" />
+              </Beam>
             </ItemIcon>
-            <ItemTitle>Accessibility first</ItemTitle>
+            <ItemTitle>Easy to customize</ItemTitle>
             <ItemDescription>
-              Fully WCAG 2.0 complient, following best practices
+              Flexible options to match your product or brand
             </ItemDescription>
           </Item>
           <Item>
             <ItemIcon>
-              <Box className="w-8 h-8" />
+              <Beam>
+                <FastForwardIcon className="w-8 h-8" />
+              </Beam>
             </ItemIcon>
-            <ItemTitle>Accessibility first</ItemTitle>
+            <ItemTitle>Top-level performance</ItemTitle>
             <ItemDescription>
-              Fully WCAG 2.0 complient, following best practices
+              Made for lightning-fast load times and smooth interactions
             </ItemDescription>
           </Item>
           <Item>
             <ItemIcon>
-              <Box className="w-8 h-8" />
+              <Beam>
+                <RocketIcon className="w-8 h-8" />
+              </Beam>
             </ItemIcon>
-            <ItemTitle>Accessibility first</ItemTitle>
+            <ItemTitle>Production ready</ItemTitle>
             <ItemDescription>
-              Fully WCAG 2.0 complient, following best practices
+              Thoroughly tested and launch-prepared
             </ItemDescription>
           </Item>
           <Item>
             <ItemIcon>
-              <Box className="w-8 h-8" />
+              <Beam>
+                <LanguagesIcon className="w-8 h-8" />
+              </Beam>
             </ItemIcon>
-            <ItemTitle>Accessibility first</ItemTitle>
+            <ItemTitle>Made for localisation</ItemTitle>
             <ItemDescription>
-              Fully WCAG 2.0 complient, following best practices
+              Easy to implement support for multiple languages and regions
             </ItemDescription>
           </Item>
           <Item>
             <ItemIcon>
-              <Box className="w-8 h-8" />
+              <Beam>
+                <SquarePenIcon className="w-8 h-8" />
+              </Beam>
             </ItemIcon>
-            <ItemTitle>Accessibility first</ItemTitle>
+            <ItemTitle>CMS friendly</ItemTitle>
             <ItemDescription>
-              Fully WCAG 2.0 complient, following best practices
+              Built to work with your any headless content management system
             </ItemDescription>
           </Item>
         </div>
