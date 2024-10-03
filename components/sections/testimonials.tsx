@@ -6,10 +6,10 @@ export default function Testimonials() {
     <Section>
       <div className="max-w-container text-center flex flex-col items-center gap-4 sm:gap-16 mx-auto overflow-hidden">
         <div className="flex flex-col gap-4 sm:gap-8 items-center">
-          <h2 className="text-2xl sm:text-5xl font-semibold max-w-[720px] leading-tight sm:leading-tight">
+          <h2 className="text-3xl sm:text-5xl font-semibold max-w-[720px] leading-tight sm:leading-tight">
             Loved by designers and developers across the planet
           </h2>
-          <p className="text-sm sm:text-xl font-medium text-muted-foreground max-w-[600px]">
+          <p className="text-md sm:text-xl font-medium text-muted-foreground max-w-[600px]">
             Here&apos;s what people are saying about Jupiter
           </p>
         </div>
