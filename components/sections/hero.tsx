@@ -18,7 +18,7 @@ export default function Hero() {
               <ArrowRightIcon className="w-3 h-3" />
             </a>
           </Badge>
-          <h1 className="text-4xl sm:text-6xl md:text-8xl font-semibold bg-gradient-to-r from-foreground to-muted-foreground inline-block text-transparent bg-clip-text drop-shadow-2xl">
+          <h1 className="text-4xl sm:text-6xl md:text-8xl font-semibold bg-gradient-to-r from-foreground to-muted-foreground inline-block text-transparent bg-clip-text drop-shadow-2xl leading-tight sm:leading-tight md:leading-tight">
             Give your big idea the website it deserves
           </h1>
           <p className="text-md sm:text-xl font-medium text-muted-foreground max-w-[550px]">
