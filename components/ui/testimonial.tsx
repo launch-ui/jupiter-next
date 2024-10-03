@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 export interface TestimonialProps {
   name: string;
   username: string;
-  text: string;
+  text: React.ReactNode;
   className?: string;
 }
 
@@ -18,7 +18,7 @@ export default function Testimonial({
   return (
     <div
       className={cn(
-        "p-6 border rounded-lg flex flex-col text-start shadow-glow-lg bg-accent/10",
+        "p-4 sm:p-6 border rounded-lg flex flex-col text-start shadow-glow-lg bg-accent/10 max-w-[320px] sm:max-w-[420px]",
         className
       )}
     >
@@ -31,7 +31,7 @@ export default function Testimonial({
           <p className="text-sm text-muted-foreground">@{username}</p>
         </div>
       </div>
-      <p className="mt-4 text-md text-muted-foreground">{text}</p>
+      <p className="mt-4 text-sm sm:text-md text-muted-foreground">{text}</p>
     </div>
   );
 }
