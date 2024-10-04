@@ -85,12 +85,54 @@ const config: Config = {
             transform: "translateX(calc(-100% - var(--gap)))",
           },
         },
-        "marquee-vertical": {
-          from: {
+        appear: {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(1rem)",
+            filter: "blur(.5rem)",
+          },
+          "50%": {
+            filter: "blur(0)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+            filter: "blur(0)",
+          },
+        },
+        "appear-zoom": {
+          "0%": {
+            opacity: "0",
+            transform: "scale(.5)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "scale(1)",
+          },
+        },
+        "pulse-hover": {
+          "0%": {
+            opacity: "1",
             transform: "translateY(0)",
           },
-          to: {
-            transform: "translateY(calc(-100% - var(--gap)))",
+          "50%": {
+            opacity: "0.5",
+            transform: "translateY(-1rem)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+        "pulse-fade": {
+          "0%": {
+            opacity: "1",
+          },
+          "50%": {
+            opacity: "0.3",
+          },
+          "100%": {
+            opacity: "1",
           },
         },
       },
@@ -98,7 +140,10 @@ const config: Config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         marquee: "marquee var(--duration) infinite linear",
-        "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
+        appear: "appear 0.6s forwards ease-out",
+        "appear-zoom": "appear-zoom 0.6s forwards ease-out",
+        "pulse-hover": "pulse-hover 6s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        "pulse-fade": "pulse-fade 6s cubic-bezier(0.4, 0, 0.6, 1) infinite",
       },
       spacing: {
         container: "1280px",
