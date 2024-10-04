@@ -6,6 +6,7 @@ import {
   FooterContent,
 } from "@/components/ui/footer";
 import Jupiter from "@/components/logos/jupiter";
+import { siteConfig } from "@/config/site";
 
 export default function FooterSection() {
   return (
@@ -48,7 +49,10 @@ export default function FooterSection() {
               <a href="#" className="text-sm text-muted-foreground">
                 Twitter
               </a>
-              <a href="#" className="text-sm text-muted-foreground">
+              <a
+                href={siteConfig.links.github}
+                className="text-sm text-muted-foreground"
+              >
                 Github
               </a>
             </FooterColumn>

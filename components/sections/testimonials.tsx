@@ -2,6 +2,7 @@ import { Section } from "@/components/ui/section";
 import Testimonial from "@/components/ui/testimonial";
 import Marquee from "@/components/ui/marquee";
 import React from "react";
+import { siteConfig } from "@/config/site";
 
 const testimonials = [
   {
@@ -10,7 +11,7 @@ const testimonials = [
     text: (
       <>
         Playing around with{" "}
-        <a href="#" className="text-brand">
+        <a href={siteConfig.url} className="text-brand">
           @jupiter
         </a>{" "}
         suddenly made me feeling inspired to launch that side project.
@@ -24,7 +25,7 @@ const testimonials = [
     text: (
       <>
         Exploring{" "}
-        <a href="#" className="text-brand">
+        <a href={siteConfig.url} className="text-brand">
           @jupiter
         </a>
         &apos;s sleek UI. It&apos;s like a dark mode enthusiast&apos;s
@@ -39,7 +40,7 @@ const testimonials = [
     text: (
       <>
         Digging into{" "}
-        <a href="#" className="text-brand">
+        <a href={siteConfig.url} className="text-brand">
           @jupiter
         </a>
         . Those shadows are giving me serious design envy.
@@ -52,7 +53,7 @@ const testimonials = [
     username: "olivia1992",
     text: (
       <>
-        <a href="#" className="text-brand">
+        <a href={siteConfig.url} className="text-brand">
           @jupiter
         </a>{" "}
         is not messing around with its component library game.
@@ -65,7 +66,7 @@ const testimonials = [
     username: "EmeRothArt",
     text: (
       <>
-        <a href="#" className="text-brand">
+        <a href={siteConfig.url} className="text-brand">
           @jupiter
         </a>{" "}
         is slick. That globe graphic though. Making me feel like I&apos;m
@@ -80,7 +81,7 @@ const testimonials = [
     text: (
       <>
         Just made my first website with{" "}
-        <a href="#" className="text-brand">
+        <a href={siteConfig.url} className="text-brand">
           @jupiter
         </a>
         . Its flexibility is speaking my language. No drama, just seamless

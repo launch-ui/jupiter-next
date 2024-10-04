@@ -1,4 +1,6 @@
-# Jupiter – Next.js Landing Page Template made with Launch UI
+# Jupiter – Landing Page Template
+
+**Made with [LaunchUI](https://launchuicomponents.com) for Next.js**
 
 Landing page kit built with React, Shadcn/ui and Tailwind that you can copy/paste into your project.
 

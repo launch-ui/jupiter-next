@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { ArrowRightIcon } from "lucide-react";
 import { Section } from "@/components/ui/section";
 import Placeholder from "@/components/ui/placeholder";
+import { siteConfig } from "@/config/site";
 
 export default function Hero() {
   return (
@@ -13,7 +14,7 @@ export default function Hero() {
             <span className="text-muted-foreground">
               New version of Jupiter is out!
             </span>
-            <a href="#" className="flex items-center gap-1">
+            <a href={siteConfig.url} className="flex items-center gap-1">
               Read more
               <ArrowRightIcon className="w-3 h-3" />
             </a>
@@ -26,11 +27,11 @@ export default function Hero() {
             can copy/paste into your project.
           </p>
           <div className="flex justify-center gap-4 relative z-10 animate-appear opacity-0 delay-300">
-            <Button variant="default" size="lg">
-              Get Started
+            <Button variant="default" size="lg" asChild>
+              <a href={siteConfig.url}>Get Started</a>
             </Button>
-            <Button variant="glow" size="lg">
-              Github
+            <Button variant="glow" size="lg" asChild>
+              <a href={siteConfig.links.github}>Github</a>
             </Button>
           </div>
         </div>
