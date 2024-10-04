@@ -8,7 +8,7 @@ export default function Placeholder() {
       <AlertTitle>Component coming soon</AlertTitle>
       <AlertDescription>
         <p>Mockups, illustrations and more are under development.</p>
-        <a className="underline" href="https://www.mikolajdobrucki.com/jupiter">
+        <a className="underline" href="https://www.launchuicomponents.com/">
           Join waitlist
         </a>
       </AlertDescription>
