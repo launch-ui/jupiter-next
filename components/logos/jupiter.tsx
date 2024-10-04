@@ -1,4 +1,4 @@
-const Shadcn = (props: React.SVGProps<SVGSVGElement>) => (
+const Jupiter = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width={24}
     height={24}
@@ -58,4 +58,4 @@ const Shadcn = (props: React.SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-export default Shadcn;
+export default Jupiter;

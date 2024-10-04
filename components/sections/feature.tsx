@@ -10,8 +10,9 @@ export default function Feature() {
             Quality you can trust. And build on.
           </h1>
           <p className="text-md sm:text-xl font-medium text-muted-foreground max-w-[600px]">
-            Quality landing page built with React, Shadcn and Tailwind that you
-            can copy/paste into your project.
+            You can trust that all of the designs are taking the full advantage
+            of newest Figma&apos;s features and that code is written following
+            best practices out there.
           </p>
         </div>
         <Placeholder />

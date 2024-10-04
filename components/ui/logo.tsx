@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 export interface LogoProps extends React.HTMLAttributes<HTMLDivElement> {
   image: React.ComponentType<React.SVGProps<SVGSVGElement>>;
   name: string;
-  version: string;
+  version?: string;
 }
 
 export default function Logo({
@@ -21,7 +21,7 @@ export default function Logo({
     >
       <SvgImage width={24} height={24} />
       <span>{name}</span>
-      <span className="text-muted-foreground">{version}</span>
+      {version && <span className="text-muted-foreground">{version}</span>}
     </div>
   );
 }

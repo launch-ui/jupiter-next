@@ -71,7 +71,7 @@ export default function Navigation() {
                     <Jupiter />
                     <div className="mb-2 mt-4 text-lg font-medium">Jupiter</div>
                     <p className="text-sm leading-tight text-muted-foreground">
-                      Landing page kit built with React, Shadcn and Tailwind
+                      Landing page kit built with React, Shadcn/ui and Tailwind
                       that you can copy/paste into your project.
                     </p>
                   </a>
