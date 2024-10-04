@@ -14,6 +14,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { Box } from "lucide-react";
+import Jupiter from "../logos/jupiter";
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -67,13 +68,11 @@ export default function Navigation() {
                     className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                     href="/"
                   >
-                    <Box className="h-6 w-6" />
-                    <div className="mb-2 mt-4 text-lg font-medium">
-                      shadcn/ui
-                    </div>
+                    <Jupiter />
+                    <div className="mb-2 mt-4 text-lg font-medium">Jupiter</div>
                     <p className="text-sm leading-tight text-muted-foreground">
-                      Beautifully designed components built with Radix UI and
-                      Tailwind CSS.
+                      Landing page kit built with React, Shadcn and Tailwind
+                      that you can copy/paste into your project.
                     </p>
                   </a>
                 </NavigationMenuLink>

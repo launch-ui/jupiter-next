@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/navbar";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
+import Jupiter from "../logos/jupiter";
 
 export default function Navbar() {
   return (
@@ -14,7 +15,8 @@ export default function Navbar() {
       <div className="max-w-container mx-auto">
         <NavbarComponent>
           <NavbarLeft>
-            <a href="#" className="text-xl font-bold">
+            <a href="#" className="text-xl font-bold flex items-center gap-2">
+              <Jupiter />
               Jupiter
             </a>
             <Navigation />
