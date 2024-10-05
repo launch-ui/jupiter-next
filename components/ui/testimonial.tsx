@@ -18,7 +18,7 @@ export default function Testimonial({
   return (
     <div
       className={cn(
-        "p-4 sm:p-6 border rounded-lg flex flex-col text-start shadow-glow-lg bg-accent/10 max-w-[320px] sm:max-w-[420px]",
+        "p-4 sm:p-6 border rounded-lg flex flex-col text-start shadow-glow-lg bg-card max-w-[320px] sm:max-w-[420px]",
         className
       )}
     >

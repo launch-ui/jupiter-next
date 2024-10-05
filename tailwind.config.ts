@@ -13,7 +13,7 @@ const config: Config = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
-          DEFAULT: "hsl(var(--card))",
+          DEFAULT: "hsl(var(--card) / 0.2)",
           foreground: "hsl(var(--card-foreground))",
         },
         popover: {
@@ -44,7 +44,7 @@ const config: Config = {
           DEFAULT: "hsl(var(--brand))",
           foreground: "hsl(var(--brand-foreground))",
         },
-        border: "hsl(var(--border))",
+        border: "hsl(var(--border) / 0.2)",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         chart: {
