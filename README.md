@@ -1,29 +1,23 @@
 # Jupiter – Landing Page Template
 
-**Next.js template made with [LaunchUI](https://launchuicomponents.com)**
+**A free Next.js template made with [🪐 Launch UI](https://launchuicomponents.com) – a collection of landing page components built with React, Shadcn/ui and Tailwind that you can copy/paste into your project.**
+
+| ⚠️ Heads up! |
+| --- |
+| This is a work in progress. More components are coming soon. [Subscribe to updates](https://launchuicomponents.com) |
 
 ## Getting Started
 
-First, run the development server:
+```bash
+npm install
+
+```
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about the Jupiter template check out the [official website](https://launchuicomponents.com).
-
-## Deploy
-
-(tba)
