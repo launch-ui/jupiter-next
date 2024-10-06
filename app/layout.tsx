@@ -12,10 +12,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   description: siteConfig.description,
   keywords: [
+    "Landing page template",
+    "Components",
+    "Shadcn",
     "Next.js",
     "React",
     "Tailwind CSS",
-    "Server Components",
     "Radix UI",
   ],
   authors: [
@@ -24,7 +26,7 @@ export const metadata: Metadata = {
       url: "https://mikolajdobrucki.com",
     },
   ],
-  creator: "shadcn",
+  creator: "mikolajdobrucki",
   openGraph: {
     type: "website",
     locale: "en_US",
