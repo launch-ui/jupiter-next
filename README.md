@@ -1,6 +1,8 @@
 # Jupiter – Landing Page Template
 
-**A free Next.js template made with [🪐 Launch UI](https://launchuicomponents.com) – a collection of landing page components built with React, Shadcn/ui and Tailwind that you can copy/paste into your project.**
+**Next.js template made with [🪐 Launch UI](https://launchuicomponents.com) – a collection of landing page components built with React, Shadcn/ui and Tailwind that you can copy/paste into your project.**
+
+<img src="https://launchuicomponents.com/og-jupiter.jpg" />
 
 | ⚠️ Heads up! |
 | --- |
