@@ -16,7 +16,7 @@ const MockupFrame = React.forwardRef<
   <div
     ref={ref}
     className={cn(
-      "relative z-10 border overflow-hidden rounded-xl shadow-2xl",
+      "relative z-10 border overflow-hidden rounded-xl shadow-2xl bg-background",
       className
     )}
     {...props}
