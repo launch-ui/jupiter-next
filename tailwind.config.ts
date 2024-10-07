@@ -33,7 +33,7 @@ const config = {
           foreground: "hsl(var(--muted-foreground) / 0.6)",
         },
         accent: {
-          DEFAULT: "hsl(var(--accent))",
+          DEFAULT: "hsl(var(--accent) / 0.15)",
           foreground: "hsl(var(--accent-foreground))",
         },
         destructive: {
@@ -59,6 +59,10 @@ const config = {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      fontFamily: {
+        code: ["var(--font-mono)"],
+        regular: ["var(--font-body)"],
       },
       keyframes: {
         "accordion-down": {
@@ -155,6 +159,11 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
-};
+  plugins: [
+    require("tailwindcss-animate"),
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/container-queries"),
+  ],
+} satisfies Config;
+
 export default config;

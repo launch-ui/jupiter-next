@@ -13,7 +13,6 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-import { Box } from "lucide-react";
 import Jupiter from "../logos/jupiter";
 
 const components: { title: string; href: string; description: string }[] = [

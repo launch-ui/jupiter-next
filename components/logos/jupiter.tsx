@@ -23,7 +23,7 @@ const Jupiter = (props: React.SVGProps<SVGSVGElement>) => (
         cy={12}
         r={12}
         transform="rotate(90 12 12)"
-        fill="#FAFAFA"
+        fill="currentColor"
       />
     </mask>
     <g mask="url(#a)">
@@ -33,15 +33,15 @@ const Jupiter = (props: React.SVGProps<SVGSVGElement>) => (
         r={11}
         transform="rotate(90 12 12)"
         fill="url(#b)"
-        stroke="#FAFAFA"
+        stroke="currentColor"
         strokeWidth={2}
       />
       <path
         d="M0 9.02c12-7 12 7 24 0M0 17c12-7 12 7 24 0"
-        stroke="#FAFAFA"
+        stroke="currentColor"
         strokeWidth={1.5}
       />
-      <ellipse cx={16.5} cy={14.5} rx={2.5} ry={1.5} fill="#FAFAFA" />
+      <ellipse cx={16.5} cy={14.5} rx={2.5} ry={1.5} fill="currentColor" />
     </g>
     <defs>
       <linearGradient
@@ -52,8 +52,8 @@ const Jupiter = (props: React.SVGProps<SVGSVGElement>) => (
         y2={5}
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#fff" stopOpacity={0} />
-        <stop offset={1} stopColor="#FAFAFA" stopOpacity={0.6} />
+        <stop stopColor="currentColor" stopOpacity={0} />
+        <stop offset={1} stopColor="currentColor" stopOpacity={0.6} />
       </linearGradient>
     </defs>
   </svg>

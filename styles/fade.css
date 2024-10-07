@@ -1,0 +1,51 @@
+.fade-x {
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 25%,
+    black 75%,
+    transparent 100%
+  );
+}
+
+.fade-y {
+  mask-image: linear-gradient(
+    to top,
+    transparent 0%,
+    black 25%,
+    black 75%,
+    transparent 100%
+  );
+}
+
+.fade-top {
+  mask-image: linear-gradient(to bottom, transparent 0%, black 35%);
+}
+
+.fade-bottom {
+  mask-image: linear-gradient(to top, transparent 0%, black 35%);
+}
+
+.fade-top-lg {
+  mask-image: linear-gradient(to bottom, transparent 15%, black 100%);
+}
+
+.fade-bottom-lg {
+  mask-image: linear-gradient(to top, transparent 15%, black 100%);
+}
+
+.fade-left {
+  mask-image: linear-gradient(to right, transparent 0%, black 35%);
+}
+
+.fade-right {
+  mask-image: linear-gradient(to left, transparent 0%, black 35%);
+}
+
+.fade-left-lg {
+  mask-image: linear-gradient(to right, transparent 15%, black 100%);
+}
+
+.fade-right-lg {
+  mask-image: linear-gradient(to left, transparent 15%, black 100%);
+}
