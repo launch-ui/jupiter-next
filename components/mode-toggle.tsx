@@ -4,13 +4,13 @@ import * as React from "react";
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "./ui/dropdown-menu";
 import { ChevronsUpDownIcon } from "lucide-react";
 
 export function ModeToggle() {
@@ -28,7 +28,7 @@ export function ModeToggle() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" className="px-2 py-0 text-xs gap-1">
+        <Button variant="ghost" className="gap-1 px-2 py-0 text-xs">
           <span className="capitalize">{theme}</span>
           <span className="hidden sm:inline"> theme</span>
           <ChevronsUpDownIcon className="h-3 w-3" />
