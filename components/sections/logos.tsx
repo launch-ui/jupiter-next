@@ -1,15 +1,15 @@
-import Figma from "@/components/logos/figma";
-import React from "@/components/logos/react";
-import ShadcnUi from "@/components/logos/shadcn-ui";
-import Tailwind from "@/components/logos/tailwind";
-import TypeScript from "@/components/logos/typescript";
-import Logo from "@/components/ui/logo";
-import { Section } from "@/components/ui/section";
+import Figma from "../logos/figma";
+import React from "../logos/react";
+import ShadcnUi from "../logos/shadcn-ui";
+import Tailwind from "../logos/tailwind";
+import TypeScript from "../logos/typescript";
+import Logo from "../ui/logo";
+import { Section } from "../ui/section";
 
 export default function Logos() {
   return (
     <Section>
-      <div className="max-w-container text-center flex flex-col items-center gap-8 mx-auto">
+      <div className="mx-auto flex max-w-container flex-col items-center gap-8 text-center">
         <h2 className="text-md font-semibold">Built with the best tools</h2>
         <div className="flex flex-wrap items-center justify-center gap-8">
           <Logo image={Figma} name="Figma" />

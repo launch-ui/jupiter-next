@@ -1,21 +1,21 @@
 import Navigation from "./navigation";
-import { Button } from "@/components/ui/button";
+import { Button } from "../ui/button";
 import {
   Navbar as NavbarComponent,
   NavbarLeft,
   NavbarRight,
-} from "@/components/ui/navbar";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+} from "../ui/navbar";
+import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
 import { Menu } from "lucide-react";
 import Jupiter from "../logos/jupiter";
 
 export default function Navbar() {
   return (
-    <header className="px-4 sticky top-0 bg-background/80 backdrop-blur-lg z-50">
-      <div className="max-w-container mx-auto">
+    <header className="sticky top-0 z-50 bg-background/80 px-4 backdrop-blur-lg">
+      <div className="mx-auto max-w-container">
         <NavbarComponent>
           <NavbarLeft>
-            <a href="#" className="text-xl font-bold flex items-center gap-2">
+            <a href="#" className="flex items-center gap-2 text-xl font-bold">
               <Jupiter />
               Jupiter
             </a>

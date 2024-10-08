@@ -1,11 +1,11 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+import { Button } from "../ui/button";
+import { Badge } from "../ui/badge";
 import { ArrowRightIcon } from "lucide-react";
-import { Section } from "@/components/ui/section";
-import { Mockup, MockupFrame } from "@/components/ui/mockup";
-import Glow from "@/components/ui/glow";
+import { Section } from "../ui/section";
+import { Mockup, MockupFrame } from "../ui/mockup";
+import Glow from "../ui/glow";
 import Image from "next/image";
 import { siteConfig } from "@/config/site";
 import { useTheme } from "next-themes";

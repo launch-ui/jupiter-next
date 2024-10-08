@@ -1,16 +1,16 @@
-import { Section } from "@/components/ui/section";
+import { Section } from "../ui/section";
 import {
   Accordion,
   AccordionItem,
   AccordionTrigger,
   AccordionContent,
-} from "@/components/ui/accordion";
+} from "../ui/accordion";
 
 export default function FAQ() {
   return (
     <Section>
-      <div className="max-w-container flex flex-col items-center gap-8 mx-auto">
-        <h2 className="text-3xl sm:text-5xl font-semibold text-center">
+      <div className="mx-auto flex max-w-container flex-col items-center gap-8">
+        <h2 className="text-center text-3xl font-semibold sm:text-5xl">
           Questions and Answers
         </h2>
         <Accordion type="single" collapsible className="w-full max-w-[800px]">

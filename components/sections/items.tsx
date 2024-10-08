@@ -9,27 +9,22 @@ import {
   ScanFaceIcon,
   SquarePenIcon,
 } from "lucide-react";
-import {
-  Item,
-  ItemIcon,
-  ItemTitle,
-  ItemDescription,
-} from "@/components/ui/item";
-import { Section } from "@/components/ui/section";
+import { Item, ItemIcon, ItemTitle, ItemDescription } from "../ui/item";
+import { Section } from "../ui/section";
 import { Beam } from "../ui/beam";
 
 export default function Items() {
   return (
     <Section>
-      <div className="max-w-container flex flex-col items-center gap-6 sm:gap-20 mx-auto">
-        <h2 className="text-3xl sm:text-5xl font-semibold max-w-[560px] text-center leading-tight sm:leading-tight">
+      <div className="mx-auto flex max-w-container flex-col items-center gap-6 sm:gap-20">
+        <h2 className="max-w-[560px] text-center text-3xl font-semibold leading-tight sm:text-5xl sm:leading-tight">
           Everything you need. Nothing you don&apos;t.
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0 sm:gap-4 auto-rows-fr">
+        <div className="grid auto-rows-fr grid-cols-1 gap-0 sm:grid-cols-2 sm:gap-4 md:grid-cols-3 lg:grid-cols-4">
           <Item>
             <ItemIcon>
               <Beam>
-                <ScanFaceIcon className="w-8 h-8" />
+                <ScanFaceIcon className="h-8 w-8" />
               </Beam>
             </ItemIcon>
             <ItemTitle>Accessibility first</ItemTitle>
@@ -40,7 +35,7 @@ export default function Items() {
           <Item>
             <ItemIcon>
               <Beam>
-                <MonitorSmartphoneIcon className="w-8 h-8" />
+                <MonitorSmartphoneIcon className="h-8 w-8" />
               </Beam>
             </ItemIcon>
             <ItemTitle>Responsive design</ItemTitle>
@@ -51,7 +46,7 @@ export default function Items() {
           <Item>
             <ItemIcon>
               <Beam>
-                <EclipseIcon className="w-8 h-8" />
+                <EclipseIcon className="h-8 w-8" />
               </Beam>
             </ItemIcon>
             <ItemTitle>Light and dark mode</ItemTitle>
@@ -62,7 +57,7 @@ export default function Items() {
           <Item>
             <ItemIcon>
               <Beam>
-                <BlocksIcon className="w-8 h-8" />
+                <BlocksIcon className="h-8 w-8" />
               </Beam>
             </ItemIcon>
             <ItemTitle>Easy to customize</ItemTitle>
@@ -73,7 +68,7 @@ export default function Items() {
           <Item>
             <ItemIcon>
               <Beam>
-                <FastForwardIcon className="w-8 h-8" />
+                <FastForwardIcon className="h-8 w-8" />
               </Beam>
             </ItemIcon>
             <ItemTitle>Top-level performance</ItemTitle>
@@ -84,7 +79,7 @@ export default function Items() {
           <Item>
             <ItemIcon>
               <Beam>
-                <RocketIcon className="w-8 h-8" />
+                <RocketIcon className="h-8 w-8" />
               </Beam>
             </ItemIcon>
             <ItemTitle>Production ready</ItemTitle>
@@ -95,7 +90,7 @@ export default function Items() {
           <Item>
             <ItemIcon>
               <Beam>
-                <LanguagesIcon className="w-8 h-8" />
+                <LanguagesIcon className="h-8 w-8" />
               </Beam>
             </ItemIcon>
             <ItemTitle>Made for localisation</ItemTitle>
@@ -106,7 +101,7 @@ export default function Items() {
           <Item>
             <ItemIcon>
               <Beam>
-                <SquarePenIcon className="w-8 h-8" />
+                <SquarePenIcon className="h-8 w-8" />
               </Beam>
             </ItemIcon>
             <ItemTitle>CMS friendly</ItemTitle>

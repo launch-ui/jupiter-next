@@ -1,27 +1,27 @@
-import { ModeToggle } from "@/components/mode-toggle";
+import { ModeToggle } from "../mode-toggle";
 import {
   Footer,
   FooterColumn,
   FooterBottom,
   FooterContent,
-} from "@/components/ui/footer";
-import Jupiter from "@/components/logos/jupiter";
+} from "../ui/footer";
+import Jupiter from "../logos/jupiter";
 import { siteConfig } from "@/config/site";
 
 export default function FooterSection() {
   return (
     <footer className="px-4">
-      <div className="max-w-container mx-auto">
+      <div className="mx-auto max-w-container">
         <Footer>
           <FooterContent>
             <FooterColumn className="col-span-2 sm:col-span-3 md:col-span-1">
-              <div className="flex gap-2 items-center">
+              <div className="flex items-center gap-2">
                 <Jupiter />
                 <h3 className="text-xl font-bold">Jupiter</h3>
               </div>
             </FooterColumn>
             <FooterColumn>
-              <h3 className="text-md font-semibold pt-1">Product</h3>
+              <h3 className="text-md pt-1 font-semibold">Product</h3>
               <a href="#" className="text-sm text-muted-foreground">
                 Changelog
               </a>
@@ -30,7 +30,7 @@ export default function FooterSection() {
               </a>
             </FooterColumn>
             <FooterColumn>
-              <h3 className="text-md font-semibold pt-1">Company</h3>
+              <h3 className="text-md pt-1 font-semibold">Company</h3>
               <a href="#" className="text-sm text-muted-foreground">
                 About
               </a>
@@ -42,7 +42,7 @@ export default function FooterSection() {
               </a>
             </FooterColumn>
             <FooterColumn>
-              <h3 className="text-md font-semibold pt-1">Contact</h3>
+              <h3 className="text-md pt-1 font-semibold">Contact</h3>
               <a href="#" className="text-sm text-muted-foreground">
                 Discord
               </a>
@@ -59,7 +59,7 @@ export default function FooterSection() {
           </FooterContent>
           <FooterBottom>
             <div>© 2024 Mikołaj Dobrucki. All rights reserved</div>
-            <div className="flex gap-4 items-center">
+            <div className="flex items-center gap-4">
               <a href="#">Privacy Policy</a>
               <a href="#">Terms of Service</a>
               <ModeToggle />
