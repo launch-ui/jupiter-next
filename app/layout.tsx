@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "@/styles/globals.css";
+import "@/app/globals.css";
 import { inter } from "@/lib/fonts";
 import { ThemeProvider } from "@/components/contexts/theme-provider";
 import { siteConfig } from "../config/site";
