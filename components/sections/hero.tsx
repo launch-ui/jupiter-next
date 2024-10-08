@@ -22,8 +22,7 @@ export default function Hero() {
       src = "/app-dark.png";
       break;
     default:
-      src =
-        "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
+      src = "/app-dark.png";
       break;
   }
 
