@@ -1,4 +1,4 @@
-import Navigation from "./navigation";
+import Navigation from "../ui/navigation";
 import { Button } from "../ui/button";
 import {
   Navbar as NavbarComponent,

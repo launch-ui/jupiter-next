@@ -12,7 +12,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
-} from "../ui/navigation-menu";
+} from "./navigation-menu";
 import Jupiter from "../logos/jupiter";
 
 const components: { title: string; href: string; description: string }[] = [
