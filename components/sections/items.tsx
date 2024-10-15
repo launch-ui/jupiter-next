@@ -1,6 +1,5 @@
 import {
   BlocksIcon,
-  Box,
   EclipseIcon,
   FastForwardIcon,
   LanguagesIcon,
