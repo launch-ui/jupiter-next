@@ -10,7 +10,7 @@ import { siteConfig } from "@/config/site";
 
 export default function FooterSection() {
   return (
-    <footer className="px-4">
+    <footer className="w-full bg-background px-4">
       <div className="mx-auto max-w-container">
         <Footer>
           <FooterContent>
