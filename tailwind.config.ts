@@ -158,13 +158,6 @@ const config = {
         "glow-md": "0 0 32px 0 hsla(var(--foreground) / 0.08) inset",
         "glow-lg": "0 0 64px 0 hsla(var(--foreground) / 0.06) inset",
       },
-      containers: {
-        sm: "640px",
-        md: "768px",
-        lg: "1024px",
-        xl: "1280px",
-        "2xl": "1536px",
-      },
     },
   },
   plugins: [require("tailwindcss-animate")],
