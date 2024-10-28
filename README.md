@@ -4,10 +4,6 @@
 
 <img src="https://launchuicomponents.com/og-jupiter.jpg" />
 
-| ⚠️ Heads up! |
-| --- |
-| This is a work in progress. More components are coming soon. [Subscribe to updates](https://launchuicomponents.com) |
-
 ## Getting Started
 
 ```bash
