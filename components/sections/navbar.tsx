@@ -11,8 +11,9 @@ import Jupiter from "../logos/jupiter";
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-50 bg-background/80 px-4 backdrop-blur-lg">
-      <div className="mx-auto max-w-container">
+    <header className="sticky top-0 z-50 px-4 pb-4">
+      <div className="fade-bottom absolute left-0 h-24 w-full bg-background/15 backdrop-blur-lg"></div>
+      <div className="relative mx-auto max-w-container">
         <NavbarComponent>
           <NavbarLeft>
             <a href="#" className="flex items-center gap-2 text-xl font-bold">
