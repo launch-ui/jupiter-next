@@ -1,27 +1,32 @@
 import React from "react";
 import { cn } from "@/lib/utils";
+import { cva, type VariantProps } from "class-variance-authority";
 
-const Mockup = React.forwardRef<
-  HTMLDivElement,
-  React.HTMLAttributes<HTMLDivElement>
->(({ className, ...props }, ref) => (
-  <div ref={ref} className={cn("flex relative", className)} {...props} />
-));
+const mockupVariants = cva("flex relative z-10 overflow-hidden shadow-2xl", {
+  variants: {
+    variant: {
+      default: "bg-background border rounded-xl",
+      frame: "bg-background/50 p-4 backdrop-blur-lg rounded-2xl",
+    },
+  },
+  defaultVariants: {
+    variant: "default",
+  },
+});
+
+export interface MockupProps
+  extends React.HTMLAttributes<HTMLDivElement>,
+    VariantProps<typeof mockupVariants> {}
+
+const Mockup = React.forwardRef<HTMLDivElement, MockupProps>(
+  ({ className, variant, ...props }, ref) => (
+    <div
+      ref={ref}
+      className={cn(mockupVariants({ variant, className }))}
+      {...props}
+    />
+  ),
+);
 Mockup.displayName = "Mockup";
 
-const MockupFrame = React.forwardRef<
-  HTMLDivElement,
-  React.HTMLAttributes<HTMLDivElement>
->(({ className, ...props }, ref) => (
-  <div
-    ref={ref}
-    className={cn(
-      "relative z-10 border overflow-hidden rounded-xl shadow-2xl bg-background",
-      className
-    )}
-    {...props}
-  />
-));
-MockupFrame.displayName = "MockupFrame";
-
-export { Mockup, MockupFrame };
+export { Mockup };
