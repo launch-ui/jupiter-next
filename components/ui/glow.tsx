@@ -6,6 +6,7 @@ const glowVariants = cva("absolute w-full opacity-0", {
   variants: {
     variant: {
       top: "top-0",
+      above: "-top-[128px]",
       bottom: "-bottom-[128px]",
     },
   },
@@ -27,8 +28,8 @@ const Glow = React.forwardRef<
     className={cn(glowVariants({ variant }), className)}
     {...props}
   >
-    <div className="w-[80%] absolute h-[256px] bg-brand-foreground rounded-[50%] blur-[256px] left-1/2 -translate-x-1/2" />
-    <div className="w-[60%] absolute h-[128px] bg-brand rounded-[50%] blur-[64px] left-1/2 -translate-x-1/2 top-[32px]" />
+    <div className="absolute left-1/2 h-[256px] w-[80%] -translate-x-1/2 rounded-[50%] bg-brand-foreground blur-[256px]" />
+    <div className="absolute left-1/2 top-[32px] h-[128px] w-[60%] -translate-x-1/2 rounded-[50%] bg-brand blur-[64px]" />
   </div>
 ));
 Glow.displayName = "Glow";
