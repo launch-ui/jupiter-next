@@ -8,7 +8,8 @@ const beamVariants = cva(
     variants: {
       tone: {
         default: "after:bg-foreground/40",
-        brand: "after:bg-brand",
+        brand: "after:bg-brand-foreground",
+        brandLight: "after:bg-brand-foreground/40",
       },
       size: {
         default: "after:blur-lg",
@@ -19,7 +20,7 @@ const beamVariants = cva(
       tone: "default",
       size: "default",
     },
-  }
+  },
 );
 
 export interface BeamProps
@@ -35,7 +36,7 @@ const Beam = React.forwardRef<HTMLDivElement, BeamProps>(
         {...props}
       />
     );
-  }
+  },
 );
 
 Beam.displayName = "Beam";

@@ -8,7 +8,7 @@ const Item = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <div
     ref={ref}
-    className={cn("p-4 text-foreground flex flex-col gap-4", className)}
+    className={cn("flex flex-col gap-4 p-4 text-foreground", className)}
     {...props}
   />
 ));
@@ -22,7 +22,7 @@ const ItemTitle = React.forwardRef<
     ref={ref}
     className={cn(
       "text-md font-semibold leading-none tracking-tight",
-      className
+      className,
     )}
     {...props}
   />
@@ -36,8 +36,8 @@ const ItemDescription = React.forwardRef<
   <div
     ref={ref}
     className={cn(
-      "text-md text-muted-foreground flex flex-col gap-2",
-      className
+      "text-md flex max-w-[300px] flex-col gap-2 text-balance text-muted-foreground",
+      className,
     )}
     {...props}
   />
@@ -50,7 +50,7 @@ const ItemIcon = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <div
     ref={ref}
-    className={cn("self-start flex items-center", className)}
+    className={cn("flex items-center self-start", className)}
     {...props}
   />
 ));
