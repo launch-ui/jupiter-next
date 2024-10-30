@@ -1,8 +1,8 @@
+@import url("../styles/fade.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url("../styles/fade.css");
 
 @layer base {
   :root {
