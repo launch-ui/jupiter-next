@@ -64,7 +64,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased bg-background`}>
+      <body className={`${inter.className} bg-background antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
