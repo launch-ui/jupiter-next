@@ -23,7 +23,7 @@ export default function Items() {
           <Item>
             <ItemIcon>
               <Beam>
-                <ScanFaceIcon className="h-8 w-8" />
+                <ScanFaceIcon className="h-8 w-8 stroke-1" />
               </Beam>
             </ItemIcon>
             <ItemTitle>Accessibility first</ItemTitle>
@@ -34,7 +34,7 @@ export default function Items() {
           <Item>
             <ItemIcon>
               <Beam>
-                <MonitorSmartphoneIcon className="h-8 w-8" />
+                <MonitorSmartphoneIcon className="h-8 w-8 stroke-1" />
               </Beam>
             </ItemIcon>
             <ItemTitle>Responsive design</ItemTitle>
@@ -45,7 +45,7 @@ export default function Items() {
           <Item>
             <ItemIcon>
               <Beam>
-                <EclipseIcon className="h-8 w-8" />
+                <EclipseIcon className="h-8 w-8 stroke-1" />
               </Beam>
             </ItemIcon>
             <ItemTitle>Light and dark mode</ItemTitle>
@@ -56,7 +56,7 @@ export default function Items() {
           <Item>
             <ItemIcon>
               <Beam>
-                <BlocksIcon className="h-8 w-8" />
+                <BlocksIcon className="h-8 w-8 stroke-1" />
               </Beam>
             </ItemIcon>
             <ItemTitle>Easy to customize</ItemTitle>
@@ -67,7 +67,7 @@ export default function Items() {
           <Item>
             <ItemIcon>
               <Beam>
-                <FastForwardIcon className="h-8 w-8" />
+                <FastForwardIcon className="h-8 w-8 stroke-1" />
               </Beam>
             </ItemIcon>
             <ItemTitle>Top-level performance</ItemTitle>
@@ -78,7 +78,7 @@ export default function Items() {
           <Item>
             <ItemIcon>
               <Beam>
-                <RocketIcon className="h-8 w-8" />
+                <RocketIcon className="h-8 w-8 stroke-1" />
               </Beam>
             </ItemIcon>
             <ItemTitle>Production ready</ItemTitle>
@@ -89,7 +89,7 @@ export default function Items() {
           <Item>
             <ItemIcon>
               <Beam>
-                <LanguagesIcon className="h-8 w-8" />
+                <LanguagesIcon className="h-8 w-8 stroke-1" />
               </Beam>
             </ItemIcon>
             <ItemTitle>Made for localisation</ItemTitle>
@@ -100,7 +100,7 @@ export default function Items() {
           <Item>
             <ItemIcon>
               <Beam>
-                <SquarePenIcon className="h-8 w-8" />
+                <SquarePenIcon className="h-8 w-8 stroke-1" />
               </Beam>
             </ItemIcon>
             <ItemTitle>CMS friendly</ItemTitle>
