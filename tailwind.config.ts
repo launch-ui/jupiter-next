@@ -150,6 +150,7 @@ const config = {
         "appear-zoom": "appear-zoom 0.6s forwards ease-out",
         "pulse-hover": "pulse-hover 6s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         "pulse-fade": "pulse-fade 6s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        "spin-slow": "spin 3s linear infinite",
       },
       spacing: {
         container: "1280px",
