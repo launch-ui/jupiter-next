@@ -44,7 +44,7 @@ const config = {
           DEFAULT: "hsl(var(--brand))",
           foreground: "hsl(var(--brand-foreground))",
         },
-        border: "hsl(var(--border) / 0.2)",
+        border: "hsl(var(--border) / 0.1)",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         chart: {
@@ -156,7 +156,7 @@ const config = {
         container: "1280px",
       },
       boxShadow: {
-        "glow-sm": "0 0 16px 0 hsla(var(--foreground) / 0.1) inset",
+        "glow-sm": "0 0 16px 0 hsla(var(--foreground) / 0.08) inset",
         "glow-md": "0 0 32px 0 hsla(var(--foreground) / 0.08) inset",
         "glow-lg": "0 0 64px 0 hsla(var(--foreground) / 0.06) inset",
       },
