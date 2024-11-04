@@ -4,13 +4,13 @@ import * as React from "react";
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
-import { Button } from "./ui/button";
+import { Button } from "./button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "./ui/dropdown-menu";
+} from "./dropdown-menu";
 import { ChevronsUpDownIcon } from "lucide-react";
 
 export function ModeToggle() {
