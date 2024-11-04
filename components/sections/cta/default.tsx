@@ -1,5 +1,5 @@
-import { Section } from "../ui/section";
-import { Button } from "../ui/button";
+import { Section } from "../../ui/section";
+import { Button } from "../../ui/button";
 import { siteConfig } from "@/config/site";
 
 export default function CTA() {

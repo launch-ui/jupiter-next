@@ -1,10 +1,10 @@
-import Figma from "../logos/figma";
-import React from "../logos/react";
-import ShadcnUi from "../logos/shadcn-ui";
-import Tailwind from "../logos/tailwind";
-import TypeScript from "../logos/typescript";
-import Logo from "../ui/logo";
-import { Section } from "../ui/section";
+import Figma from "../../logos/figma";
+import React from "../../logos/react";
+import ShadcnUi from "../../logos/shadcn-ui";
+import Tailwind from "../../logos/tailwind";
+import TypeScript from "../../logos/typescript";
+import Logo from "../../ui/logo";
+import { Section } from "../../ui/section";
 
 export default function Logos() {
   return (

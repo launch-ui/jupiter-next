@@ -8,9 +8,9 @@ import {
   ScanFaceIcon,
   SquarePenIcon,
 } from "lucide-react";
-import { Item, ItemIcon, ItemTitle, ItemDescription } from "../ui/item";
-import { Section } from "../ui/section";
-import { Beam } from "../ui/beam";
+import { Item, ItemIcon, ItemTitle, ItemDescription } from "../../ui/item";
+import { Section } from "../../ui/section";
+import { Beam } from "../../ui/beam";
 
 export default function Items() {
   return (

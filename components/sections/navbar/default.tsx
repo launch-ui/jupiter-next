@@ -1,13 +1,13 @@
-import Navigation from "../ui/navigation";
-import { Button } from "../ui/button";
+import Navigation from "../../ui/navigation";
+import { Button } from "../../ui/button";
 import {
   Navbar as NavbarComponent,
   NavbarLeft,
   NavbarRight,
-} from "../ui/navbar";
-import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
+} from "../../ui/navbar";
+import { Sheet, SheetContent, SheetTrigger } from "../../ui/sheet";
 import { Menu } from "lucide-react";
-import Jupiter from "../logos/jupiter";
+import Jupiter from "../../logos/jupiter";
 
 export default function Navbar() {
   return (

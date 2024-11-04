@@ -1,10 +1,10 @@
-import { Section } from "../ui/section";
+import { Section } from "../../ui/section";
 import {
   Accordion,
   AccordionItem,
   AccordionTrigger,
   AccordionContent,
-} from "../ui/accordion";
+} from "../../ui/accordion";
 
 export default function FAQ() {
   return (

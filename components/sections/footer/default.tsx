@@ -1,11 +1,11 @@
-import { ModeToggle } from "../mode-toggle";
+import { ModeToggle } from "../../mode-toggle";
 import {
   Footer,
   FooterColumn,
   FooterBottom,
   FooterContent,
-} from "../ui/footer";
-import Jupiter from "../logos/jupiter";
+} from "../../ui/footer";
+import Jupiter from "../../logos/jupiter";
 import { siteConfig } from "@/config/site";
 
 export default function FooterSection() {
