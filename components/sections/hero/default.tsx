@@ -4,7 +4,7 @@ import { Button } from "../../ui/button";
 import { Badge } from "../../ui/badge";
 import { ArrowRightIcon } from "lucide-react";
 import { Section } from "../../ui/section";
-import { Mockup } from "../../ui/mockup";
+import { Mockup, MockupFrame } from "../../ui/mockup";
 import Glow from "../../ui/glow";
 import Image from "next/image";
 import { siteConfig } from "@/config/site";
@@ -57,14 +57,19 @@ export default function Hero() {
             </div>
           </div>
           <div className="relative">
-            <Mockup className="animate-appear opacity-0 delay-700">
-              <Image
-                src={src}
-                alt="Jupiter app screenshot"
-                width={1248}
-                height={765}
-              />
-            </Mockup>
+            <MockupFrame size="small">
+              <Mockup
+                className="animate-appear opacity-0 delay-700"
+                type="responsive"
+              >
+                <Image
+                  src={src}
+                  alt="Jupiter app screenshot"
+                  width={1248}
+                  height={765}
+                />
+              </Mockup>
+            </MockupFrame>
             <Glow
               variant="top"
               className="animate-appear-zoom opacity-0 delay-1000"
