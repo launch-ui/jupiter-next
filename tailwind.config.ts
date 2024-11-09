@@ -130,6 +130,28 @@ const config = {
             transform: "translateY(0)",
           },
         },
+        hover: {
+          "0%": {
+            transform: "translateY(0) translateX(0)",
+          },
+          "50%": {
+            transform: "translateY(-1rem) translateX(1rem)",
+          },
+          "100%": {
+            transform: "translateY(0) translateX(0)",
+          },
+        },
+        "hover-reverse": {
+          "0%": {
+            transform: "translateY(0) translateX(0)",
+          },
+          "50%": {
+            transform: "translateY(1rem) translateX(1rem)",
+          },
+          "100%": {
+            transform: "translateY(0) translateX(0)",
+          },
+        },
         "pulse-fade": {
           "0%": {
             opacity: "1",
@@ -149,6 +171,9 @@ const config = {
         appear: "appear 0.6s forwards ease-out",
         "appear-zoom": "appear-zoom 0.6s forwards ease-out",
         "pulse-hover": "pulse-hover 6s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        hover: "hover 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        "hover-reverse":
+          "hover-reverse 6s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         "pulse-fade": "pulse-fade 6s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         "spin-slow": "spin 3s linear infinite",
       },
