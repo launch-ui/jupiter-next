@@ -57,11 +57,11 @@ export default function Hero() {
             </div>
           </div>
           <div className="relative">
-            <MockupFrame size="small">
-              <Mockup
-                className="animate-appear opacity-0 delay-700"
-                type="responsive"
-              >
+            <MockupFrame
+              className="animate-appear opacity-0 delay-700"
+              size="small"
+            >
+              <Mockup type="responsive">
                 <Image
                   src={src}
                   alt="Jupiter app screenshot"
