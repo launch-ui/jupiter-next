@@ -167,15 +167,9 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        marquee: "marquee var(--duration) infinite linear",
         appear: "appear 0.6s forwards ease-out",
         "appear-zoom": "appear-zoom 0.6s forwards ease-out",
         "pulse-hover": "pulse-hover 6s cubic-bezier(0.4, 0, 0.6, 1) infinite",
-        hover: "hover 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
-        "hover-reverse":
-          "hover-reverse 6s cubic-bezier(0.4, 0, 0.6, 1) infinite",
-        "pulse-fade": "pulse-fade 6s cubic-bezier(0.4, 0, 0.6, 1) infinite",
-        "spin-slow": "spin 3s linear infinite",
       },
       spacing: {
         container: "1280px",
