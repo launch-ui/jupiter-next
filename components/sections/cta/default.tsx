@@ -6,7 +6,7 @@ import Glow from "../../ui/glow";
 export default function CTA() {
   return (
     <Section className="group relative overflow-hidden">
-      <div className="mx-auto flex max-w-container flex-col items-center gap-6 text-center sm:gap-8">
+      <div className="relative z-10 mx-auto flex max-w-container flex-col items-center gap-6 text-center sm:gap-8">
         <h2 className="text-3xl font-semibold sm:text-5xl">Start building</h2>
         <Button variant="default" size="lg" asChild>
           <a href={siteConfig.url}>Get Started</a>
