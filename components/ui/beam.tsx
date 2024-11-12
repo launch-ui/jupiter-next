@@ -3,17 +3,20 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const beamVariants = cva(
-  "relative after:content-[''] after:absolute after:inset-0 after:rounded-full",
+  "relative after:content-[''] after:absolute after:inset-0 after:rounded-full after:scale-[2]",
   {
     variants: {
       tone: {
-        default: "after:bg-foreground/40",
-        brand: "after:bg-brand-foreground",
-        brandLight: "after:bg-brand-foreground/40",
+        default:
+          "after:bg-[radial-gradient(ellipse_at_center,_hsla(var(--foreground)/.3)_10%,_hsla(var(--foreground)/0)_60%)]",
+        brand:
+          "after:bg-[radial-gradient(ellipse_at_center,_hsla(var(--brand)/.3)_10%,_hsla(var(--brand)/0)_60%)]",
+        brandLight:
+          "after:bg-[radial-gradient(ellipse_at_center,_hsla(var(--brand-foreground)/.3)_10%,_hsla(var(--brand-foreground)/0)_60%)]",
       },
       size: {
-        default: "after:blur-lg",
-        large: "after:blur-xl",
+        default: "after:-lg",
+        large: "after:-xl",
       },
     },
     defaultVariants: {
