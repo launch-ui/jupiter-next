@@ -33,7 +33,7 @@ const Mockup = React.forwardRef<HTMLDivElement, MockupProps>(
 Mockup.displayName = "Mockup";
 
 const frameVariants = cva(
-  "bg-accent/5 backdrop-blur-lg flex relative z-10 overflow-hidden rounded-2xl",
+  "bg-accent/5 flex relative z-10 overflow-hidden rounded-2xl",
   {
     variants: {
       size: {
