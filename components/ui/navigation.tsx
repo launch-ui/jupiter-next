@@ -14,6 +14,7 @@ import {
   navigationMenuTriggerStyle,
 } from "./navigation-menu";
 import Jupiter from "../logos/jupiter";
+import { siteConfig } from "@/config/site";
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -65,7 +66,7 @@ export default function Navigation() {
                 <NavigationMenuLink asChild>
                   <a
                     className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                    href="/"
+                    href={siteConfig.url}
                   >
                     <Jupiter />
                     <div className="mb-2 mt-4 text-lg font-medium">Jupiter</div>
@@ -76,13 +77,13 @@ export default function Navigation() {
                   </a>
                 </NavigationMenuLink>
               </li>
-              <ListItem href="/docs" title="Introduction">
+              <ListItem href={siteConfig.url} title="Introduction">
                 Re-usable components built using Radix UI and Tailwind CSS.
               </ListItem>
-              <ListItem href="/docs/installation" title="Installation">
+              <ListItem href={siteConfig.url} title="Installation">
                 How to install dependencies and structure your app.
               </ListItem>
-              <ListItem href="/docs/primitives/typography" title="Typography">
+              <ListItem href={siteConfig.url} title="Typography">
                 Styles for headings, paragraphs, lists...etc
               </ListItem>
             </ul>
@@ -96,7 +97,7 @@ export default function Navigation() {
                 <ListItem
                   key={component.title}
                   title={component.title}
-                  href={component.href}
+                  href={siteConfig.url}
                 >
                   {component.description}
                 </ListItem>
@@ -105,7 +106,7 @@ export default function Navigation() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/docs" legacyBehavior passHref>
+          <Link href={siteConfig.url} legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Documentation
             </NavigationMenuLink>

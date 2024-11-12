@@ -8,6 +8,7 @@ import {
 import { Sheet, SheetContent, SheetTrigger } from "../../ui/sheet";
 import { Menu } from "lucide-react";
 import Jupiter from "../../logos/jupiter";
+import { siteConfig } from "@/config/site";
 
 export default function Navbar() {
   return (
@@ -16,17 +17,22 @@ export default function Navbar() {
       <div className="relative mx-auto max-w-container">
         <NavbarComponent>
           <NavbarLeft>
-            <a href="#" className="flex items-center gap-2 text-xl font-bold">
+            <a
+              href={siteConfig.url}
+              className="flex items-center gap-2 text-xl font-bold"
+            >
               <Jupiter />
               Jupiter
             </a>
             <Navigation />
           </NavbarLeft>
           <NavbarRight>
-            <a href="#" className="hidden text-sm md:block">
+            <a href={siteConfig.url} className="hidden text-sm md:block">
               Sign in
             </a>
-            <Button variant="default">Get Started</Button>
+            <Button variant="default" asChild>
+              <a href={siteConfig.url}>Get Started</a>
+            </Button>
             <Sheet>
               <SheetTrigger asChild>
                 <Button
@@ -41,25 +47,25 @@ export default function Navbar() {
               <SheetContent side="right">
                 <nav className="grid gap-6 text-lg font-medium">
                   <a
-                    href="#"
+                    href={siteConfig.url}
                     className="flex items-center gap-2 text-xl font-bold"
                   >
                     <span>Jupiter</span>
                   </a>
                   <a
-                    href="#"
+                    href={siteConfig.url}
                     className="text-muted-foreground hover:text-foreground"
                   >
                     Getting Started
                   </a>
                   <a
-                    href="#"
+                    href={siteConfig.url}
                     className="text-muted-foreground hover:text-foreground"
                   >
                     Components
                   </a>
                   <a
-                    href="#"
+                    href={siteConfig.url}
                     className="text-muted-foreground hover:text-foreground"
                   >
                     Documentation
