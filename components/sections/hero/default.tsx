@@ -27,7 +27,7 @@ export default function Hero() {
   }
 
   return (
-    <Section className="fade-bottom pb-0 sm:pb-0 md:pb-0">
+    <Section className="fade-bottom overflow-hidden pb-0 sm:pb-0 md:pb-0">
       <div className="mx-auto flex max-w-container flex-col gap-12 sm:gap-24">
         <div className="flex flex-col items-center gap-6 text-center sm:gap-12">
           <Badge variant="outline" className="animate-appear">
