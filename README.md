@@ -9,7 +9,7 @@ It comes with a basic Next.js app setup, Tailwind and all the components you nee
 <img src="https://launchuicomponents.com/og.jpg" />
 
 * [Preview](https://launchuicomponents.com/preview)
-* [Documentation](https://launchuicomponents.com/docs)
+* [Documentation](https://www.launchuicomponents.com/docs/getting-started/introduction)
 * [Get all components](https://launchuicomponents.com/pricing)
 
 ## Getting Started
