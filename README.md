@@ -6,7 +6,7 @@ This template is meant to serve as a starting point for building a website with 
 
 It comes with a basic Next.js app setup, Tailwind and all the components you need to get started.
 
-<img src="https://launchuicomponents.com/og.jpg" />
+<img src="https://launchuicomponents.com/og.jpg" alt="Launch UI components mockups" />
 
 * [Preview](https://launchuicomponents.com/preview)
 * [Documentation](https://www.launchuicomponents.com/docs/getting-started/introduction)
