@@ -13,7 +13,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "./navigation-menu";
-import Jupiter from "../logos/jupiter";
+import Launch UI from "../logos/Launch UI";
 import { siteConfig } from "@/config/site";
 
 const components: { title: string; href: string; description: string }[] = [
@@ -68,8 +68,8 @@ export default function Navigation() {
                     className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                     href={siteConfig.url}
                   >
-                    <Jupiter />
-                    <div className="mb-2 mt-4 text-lg font-medium">Jupiter</div>
+                    <LaunchUI />
+                    <div className="mb-2 mt-4 text-lg font-medium">Launch UI</div>
                     <p className="text-sm leading-tight text-muted-foreground">
                       Landing page template built with React, Shadcn/ui and
                       Tailwind that you can copy/paste into your project.

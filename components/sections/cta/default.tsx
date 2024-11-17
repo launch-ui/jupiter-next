@@ -9,7 +9,7 @@ export default function CTA() {
       <div className="relative z-10 mx-auto flex max-w-container flex-col items-center gap-6 text-center sm:gap-8">
         <h2 className="text-3xl font-semibold sm:text-5xl">Start building</h2>
         <Button variant="default" size="lg" asChild>
-          <a href={siteConfig.url}>Get Started</a>
+          <a href={siteConfig.getStartedUrl}>Get Started</a>
         </Button>
       </div>
       <div className="absolute left-0 top-0 h-full w-full translate-y-[1rem] opacity-80 transition-all duration-500 ease-in-out group-hover:translate-y-[-2rem] group-hover:opacity-100">

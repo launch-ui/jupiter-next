@@ -15,26 +15,26 @@ export default function FAQ() {
         </h2>
         <Accordion type="single" collapsible className="w-full max-w-[800px]">
           <AccordionItem value="item-1">
-            <AccordionTrigger>Is Jupiter easy to customise?</AccordionTrigger>
+            <AccordionTrigger>Is Launch UI easy to customise?</AccordionTrigger>
             <AccordionContent>
-              Yes, Jupiter is built with Tailwind CSS, making it easy to
+              Yes, Launch UI is built with Tailwind CSS, making it easy to
               customize.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
             <AccordionTrigger>
-              Is Jupiter optimized for search engines?
+              Is Launch UI optimized for search engines?
             </AccordionTrigger>
             <AccordionContent>
-              Yes, Jupiter is built with SEO best practices in mind.
+              Yes, Launch UI is built with SEO best practices in mind.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
             <AccordionTrigger>
-              How does Jupiter compare to no-code tools?
+              How does Launch UI compare to no-code tools?
             </AccordionTrigger>
             <AccordionContent>
-              Jupiter offers more flexibility and control compared to no-code
+              Launch UI offers more flexibility and control compared to no-code
               tools.
             </AccordionContent>
           </AccordionItem>
@@ -43,7 +43,7 @@ export default function FAQ() {
               Why not just coding a website yourself?
             </AccordionTrigger>
             <AccordionContent>
-              Jupiter saves you time and effort by providing pre-built
+              Launch UI saves you time and effort by providing pre-built
               components and sections.
             </AccordionContent>
           </AccordionItem>

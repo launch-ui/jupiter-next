@@ -32,10 +32,13 @@ export default function Hero() {
         <div className="flex flex-col items-center gap-6 text-center sm:gap-12">
           <Badge variant="outline" className="animate-appear">
             <span className="text-muted-foreground">
-              New version of Jupiter is out!
+              New version of Launch UI is out!
             </span>
-            <a href={siteConfig.url} className="flex items-center gap-1">
-              Read more
+            <a
+              href={siteConfig.getStartedUrl}
+              className="flex items-center gap-1"
+            >
+              Get started
               <ArrowRightIcon className="h-3 w-3" />
             </a>
           </Badge>
@@ -49,7 +52,7 @@ export default function Hero() {
           <div className="relative z-10 flex animate-appear justify-center gap-4 opacity-0 delay-300">
             <div className="relative z-10 flex animate-appear justify-center gap-4 opacity-0 delay-300">
               <Button variant="default" size="lg" asChild>
-                <a href={siteConfig.url}>Get Started</a>
+                <a href={siteConfig.getStartedUrl}>Get Started</a>
               </Button>
               <Button variant="glow" size="lg" asChild>
                 <a href={siteConfig.links.github}>Github</a>
@@ -64,7 +67,7 @@ export default function Hero() {
               <Mockup type="responsive">
                 <Image
                   src={src}
-                  alt="Jupiter app screenshot"
+                  alt="Launch UI app screenshot"
                   width={1248}
                   height={765}
                 />

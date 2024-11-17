@@ -5,7 +5,7 @@ import {
   FooterBottom,
   FooterContent,
 } from "../../ui/footer";
-import Jupiter from "../../logos/jupiter";
+import LaunchUI from "../../logos/launch-ui";
 import { siteConfig } from "@/config/site";
 
 export default function FooterSection() {
@@ -16,8 +16,8 @@ export default function FooterSection() {
           <FooterContent>
             <FooterColumn className="col-span-2 sm:col-span-3 md:col-span-1">
               <div className="flex items-center gap-2">
-                <Jupiter />
-                <h3 className="text-xl font-bold">Jupiter</h3>
+                <LaunchUI />
+                <h3 className="text-xl font-bold">Launch UI</h3>
               </div>
             </FooterColumn>
             <FooterColumn>
