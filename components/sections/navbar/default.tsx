@@ -18,7 +18,7 @@ export default function Navbar() {
         <NavbarComponent>
           <NavbarLeft>
             <a
-              href={siteConfig.getStartedUrl}
+              href={siteConfig.url}
               className="flex items-center gap-2 text-xl font-bold"
             >
               <LaunchUI />
@@ -31,7 +31,7 @@ export default function Navbar() {
               Sign in
             </a>
             <Button variant="default" asChild>
-              <a href={siteConfig.getStartedUrl}>Get Started</a>
+              <a href={siteConfig.url}>Get Started</a>
             </Button>
             <Sheet>
               <SheetTrigger asChild>
@@ -47,25 +47,25 @@ export default function Navbar() {
               <SheetContent side="right">
                 <nav className="grid gap-6 text-lg font-medium">
                   <a
-                    href={siteConfig.getStartedUrl}
+                    href={siteConfig.url}
                     className="flex items-center gap-2 text-xl font-bold"
                   >
                     <span>Launch UI</span>
                   </a>
                   <a
-                    href={siteConfig.getStartedUrl}
+                    href={siteConfig.url}
                     className="text-muted-foreground hover:text-foreground"
                   >
                     Getting Started
                   </a>
                   <a
-                    href={siteConfig.getStartedUrl}
+                    href={siteConfig.url}
                     className="text-muted-foreground hover:text-foreground"
                   >
                     Components
                   </a>
                   <a
-                    href={siteConfig.getStartedUrl}
+                    href={siteConfig.url}
                     className="text-muted-foreground hover:text-foreground"
                   >
                     Documentation

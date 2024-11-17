@@ -46,8 +46,8 @@ export default function Hero() {
             Give your big idea the website it deserves
           </h1>
           <p className="text-md max-w-[550px] animate-appear font-medium text-muted-foreground opacity-0 delay-100 sm:text-xl">
-            Landing page template built with React, Shadcn/ui and Tailwind that
-            you can copy/paste into your project.
+            Landing page components built with React, Shadcn/ui and Tailwind
+            that you can copy/paste into your project.
           </p>
           <div className="relative z-10 flex animate-appear justify-center gap-4 opacity-0 delay-300">
             <div className="relative z-10 flex animate-appear justify-center gap-4 opacity-0 delay-300">

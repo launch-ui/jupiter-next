@@ -13,7 +13,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "./navigation-menu";
-import Launch UI from "../logos/Launch UI";
+import LaunchUI from "../logos/launch-ui";
 import { siteConfig } from "@/config/site";
 
 const components: { title: string; href: string; description: string }[] = [
@@ -69,7 +69,9 @@ export default function Navigation() {
                     href={siteConfig.url}
                   >
                     <LaunchUI />
-                    <div className="mb-2 mt-4 text-lg font-medium">Launch UI</div>
+                    <div className="mb-2 mt-4 text-lg font-medium">
+                      Launch UI
+                    </div>
                     <p className="text-sm leading-tight text-muted-foreground">
                       Landing page template built with React, Shadcn/ui and
                       Tailwind that you can copy/paste into your project.
