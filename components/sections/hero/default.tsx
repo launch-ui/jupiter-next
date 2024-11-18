@@ -9,6 +9,7 @@ import Glow from "../../ui/glow";
 import Image from "next/image";
 import { siteConfig } from "@/config/site";
 import { useTheme } from "next-themes";
+import Github from "../../logos/github";
 
 export default function Hero() {
   const { resolvedTheme } = useTheme();
@@ -28,7 +29,7 @@ export default function Hero() {
 
   return (
     <Section className="fade-bottom overflow-hidden pb-0 sm:pb-0 md:pb-0">
-      <div className="mx-auto flex max-w-container flex-col gap-12 sm:gap-24">
+      <div className="mx-auto flex max-w-container flex-col gap-12 pt-16 sm:gap-24">
         <div className="flex flex-col items-center gap-6 text-center sm:gap-12">
           <Badge variant="outline" className="animate-appear">
             <span className="text-muted-foreground">
@@ -47,7 +48,7 @@ export default function Hero() {
           </h1>
           <p className="text-md max-w-[550px] animate-appear font-medium text-muted-foreground opacity-0 delay-100 sm:text-xl">
             Landing page components built with React, Shadcn/ui and Tailwind
-            that you can copy/paste into your project.
+            that will make your website feel premium.
           </p>
           <div className="relative z-10 flex animate-appear justify-center gap-4 opacity-0 delay-300">
             <div className="relative z-10 flex animate-appear justify-center gap-4 opacity-0 delay-300">
@@ -55,11 +56,13 @@ export default function Hero() {
                 <a href={siteConfig.getStartedUrl}>Get Started</a>
               </Button>
               <Button variant="glow" size="lg" asChild>
-                <a href={siteConfig.links.github}>Github</a>
+                <a href={siteConfig.links.github}>
+                  <Github className="mr-2 h-4 w-4" /> Github
+                </a>
               </Button>
             </div>
           </div>
-          <div className="relative">
+          <div className="relative pt-12">
             <MockupFrame
               className="animate-appear opacity-0 delay-700"
               size="small"
